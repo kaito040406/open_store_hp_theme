@@ -5,232 +5,604 @@ Template Name: contact.php
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
+    <head>
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <title>Contact – Reobiz – Consulting Business HTML Template</title>
+        <meta name="description" content="">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/fav.png">
+        <!-- Bootstrap v4.4.1 css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.css">
+        <!-- aos css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/aos.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.css">
+        <!-- slick css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css">
+        <!-- off canvas css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/off-canvas.css">
+        <!-- linea-font css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/linea-fonts.css">
+        <!-- flaticon css  -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/flaticon.css">
+        <!-- magnific popup css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/magnific-popup.css">
+        <!-- Main Menu css -->
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/rsmenu-main.css">
+        <!-- nivo slider CSS -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/css/nivo-slider.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/css/preview.css">
+        <!-- rsmenu transitions css -->
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/rsmenu-transitions.css">
+        <!-- spacing css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/rs-spacing.css">
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>"> <!-- This stylesheet dynamically changed from style.less -->
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
+    </head>
+    <body>
 
-<head>
-	<?php get_header(); ?> 
-</head>
-<body>
-	<?php get_template_part('menu'); ?>
-	<div class="wrapper" style="display:block; margin:0 5%;">
-		<div class="header-color">
-			<p></p>
-		</div>
-		<header>
-		</header>
-		<div class="container clear">
-			<div class="top">
-				<div class="top-logo">
-					<h3><span>Contact</span></h3>
-				</div>
-				<div class="top-me">
-					<p>- 会社情報 -
-						<br>
-					</p>
-				</div>
-				<div class="backToTop" style="display:none;">
-					TOP
-				</div>
-			</div>
-		</div>
-	</div>
-	
-<!-- 		<div class="access scrollanime slide-left">
-			<div class="past-title scrollanime slide-left">
-				<p>OVERVIEW</p>
-				<div class="overview_box">
-					<table border="1" class="overview_table">
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>会社名</span>
-							</td>
-							<td  class="overview_td overview_detail">
-								<span>オープンストア株式会社</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>設立</span>	
-							</td>
-							<td class="overview_td overview_detail">
-								<span>令和3年3月3日</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>所在地</span>
-							</td>
-							<td class="overview_td overview_detail" style="text-align: center;">
-								<div class="overview_mapboxes">
-									<div class="overview_mapbox">
-										<table style="border: none;">
-											<tr>
-												<td>
-													<iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689.3369993570237!2d135.49381557024523!3d34.72893598247008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43130b5e829%3A0x4f00da5f97f8ed!2z44CSNTMyLTAwMTIg5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy65pyo5bed5p2x77yU5LiB55uu77yV4oiS77yT!5e0!3m2!1sja!2sjp!4v1616219401449!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-												</td>
-											</tr>
-											<tr>
-												<td style="line-height:39px; padding:4% 0;>
-													大阪支部<br>〒532-0012<br>大阪府大阪市淀川区木川東４丁目５-３ オパル新大阪ビル
-												</td>
-											</tr>
-										</table>
-									</div>
-									<div class="overview_mapbox">
-										<table style="border: none;">
-											<tr>
-												<td>
-													<iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.741667467848!2d139.72934511609054!3d35.70797423611049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cfff3d69d6b%3A0x3088366b0ce31b6e!2z44CSMTYyLTA4MDEg5p2x5Lqs6YO95paw5a6_5Yy65bGx5ZC555S677yS77yW77yR4oiS77yVIDJG!5e0!3m2!1sja!2sjp!4v1616167573231!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													東京支部<br>〒162-080<br>東京都新宿区山吹町２６１−５　トリオ・セントラルタワー2F
-												</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>資本金</span>
-							</td>
-							<td class="overview_td overview_detail">
-								<span>200万</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>電話番号</span>
-							</td>
-							<td class="overview_td overview_detail">
-								<span>06-6770-9626</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>代表取締役</span>
-							</td>
-							<td class="overview_td overview_detail">
-								<span>大森道秋</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>従業員</span>
-							</td>
-							<td class="overview_td overview_detail">
-								<span>２９名</span>
-							</td>
-						</tr>
-						<tr class="overview_tr">
-							<td class="overview_td">
-								<span>事業内容</span>
-							</td>
-							<td class="overview_td overview_detail" style="text-align:left;">
-								<span>・WEB制作事業<br>&nbsp;&nbsp;(サイト構築/コンサルティング/マーケティング/デザイン)</span><br><br>
-								<span>・システム開発事業</span><br><br>
-								<span>・EC事業<br>&nbsp;&nbsp;(ECサイト構築/運用/コンサルティング/マーケティング)</span><br><br>
-								<span>・クリエイティブ制作事業<br>&nbsp;&nbsp;（ロゴ制作/販促物/デジタルコンテンツ）</span><br><br>
-								<span>・店舗経営コンサルティング</span>
-							</td>
-						</tr>
-					</table>
-				</div>
+        <!-- Preloader area start here -->
+        <div id="loader" class="loader">
+            <div class="spinner"></div>
+        </div>
+        <!--End preloader here -->
 
-			</div>
-
-		</div> -->
-	 <div class="container">
-        <div class="kaisha">
-            <div class="kaisha1">
-                <div class="kaisha-ti">
-                    <h3>OVERVIEW</h3>
-                    <p>会社概要</p>
+        <!--Full width header Start-->
+        <div class="full-width-header">
+            <!-- Toolbar Start -->
+            <div class="toolbar-area hidden-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="toolbar-contact">
+                                <ul>
+                                    <li><i class="flaticon-email"></i><a href="mailto:info@yourwebsite.com">support@rstheme.com</a></li>
+                                    <li><i class="flaticon-call"></i><a href="tel:+123456789">(+123) 456789</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="toolbar-sl-share">
+                                <ul>
+                                    <li class="opening"> <i class="flaticon-clock"></i> Mon - Fri: 9:00 am - 06.00pm / Closed on Weekends</li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <table class="campany-table">
-                <tbody>
-                    <tr>
-                        <th class="campany-th">会社名</th>
-                        <td class="campany-td">オープンストア株式会社</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">資本金</th>
-                        <td class="campany-td">200万</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">設立</th>
-                        <td class="campany-td">令和3年3月3日</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">所在地</th>
-                        <td class="campany-td">
-                            <ul>
-                                <li class="ul">東京支部
-                                    <br>〒162-080 東京都新宿区山吹町２６１−５ トリオ・セントラルタワー2F
-                                </li>
-                                <li>
-                                    <div class="iframe-wrap">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.741667467735!2d139.72934511474696!3d35.707974236113266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cfff3d69d6b%3A0xb44eac71e387b406!2z44CSMTYyLTA4MDEg5p2x5Lqs6YO95paw5a6_5Yy65bGx5ZC555S677yS77yW77yR4oiS77yV!5e0!3m2!1sja!2sjp!4v1618474464054!5m2!1sja!2sjp"
-                                            width="600" height="450" style="border:0;" allowfullscreen=""
-                                            loading="lazy"></iframe>
+            <!-- Toolbar End -->
+            
+            <!--Header Start-->
+            <header id="rs-header" class="rs-header">
+                <!-- Menu Start -->
+                <div class="menu-area menu-sticky">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="logo-area">
+                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 text-right">
+                                <div class="rs-menu-area">
+                                    <div class="main-menu">
+                                        <div class="mobile-menu">
+                                            <a class="rs-menu-toggle">
+                                                <i class="fa fa-bars"></i>
+                                            </a>
+                                        </div>
+                                        <nav class="rs-menu pr-65">
+                                            <ul class="nav-menu">
+                                                <li class="rs-mega-menu mega-rs menu-item-has-children"> <a href="#">Home</a>
+                                                    <ul class="mega-menu"> 
+                                                        <li class="mega-menu-container">
+                                                            <div class="mega-menu-innner">
+                                                                <div class="single-megamenu">
+                                                                    <ul class="sub-menu">
+                                                                        <li class="menu-title">Home Multipage</li>
+                                                                        <li><a href="index.html">Business Main</a> </li>
+                                                                        <li><a href="index2.html">Business 3</a> </li>
+                                                                        <li><a href="index3.html">Consulting 2</a> </li>
+                                                                        <li><a href="index4.html">Consulting 1</a> </li>
+                                                                        <li><a href="index5.html">Business 2</a> </li>
+                                                                        <li><a href="index6.html">Insurance</a> </li>
+                                                                        <li><a href="index7.html">Saas</a> </li>
+                                                                        <li><a href="index8.html">Human Resource</a> </li>
+                                                                        <li><a href="index9.html">Digital Agency</a> </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="single-megamenu">
+                                                                    <ul class="sub-menu">
+                                                                        <li class="menu-title">Home Multipage</li>
+                                                                        <li><a href="index10.html">Law Firm</a></li>
+                                                                        <li><a href="index11.html">Consulting 3</a></li>
+                                                                        <li><a href="index12.html">Digital Agency(SEO)</a></li>
+                                                                        <li><a href="index13.html">Digital Agency</a></li>
+                                                                        <li><a href="index14.html">Corporate Business</a></li>
+                                                                        <li><a href="index15.html">App Landing</a></li>
+                                                                        <li><a href="index16.html">It Solutions</a></li>
+                                                                        <li><a href="index17.html">Marketing Agency</a></li>
+                                                                        <li class="last-item"><a href="index18.html">Corporate Business 2</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="single-megamenu">
+                                                                 <ul class="sub-menu last-sub-menu">
+                                                                     <li class="menu-title">Home Onepage</li>
+                                                                     <li><a href="onepage1.html">Onepage 1</a> </li>
+                                                                     <li><a href="onepage2.html">Onepage 2</a> </li>
+                                                                     <li><a href="onepage3.html">Onepage 3</a> </li>
+                                                                     <li><a href="onepage4.html">Onepage 4</a> </li>
+                                                                     <li><a href="onepage5.html">Onepage 5</a> </li>
+                                                                     <li><a href="onepage6.html">Onepage 6</a> </li>                        
+                                                                     <li><a href="onepage8.html">Onepage 8</a> </li>
+                                                                     <li><a href="onepage9.html">Onepage 9</a> </li>
+                                                                     <li><a href="onepage10.html">Onepage 10</a> </li>
+                                                                 </ul>
+                                                             </div>
+                                                             <div class="single-megamenu">
+                                                                 <ul class="sub-menu last-sub-menu">
+                                                                     <li class="menu-title">Home Onepage</li>
+                                                                     <li><a href="onepage11.html">Onepage 11</a> </li>
+                                                                     <li><a href="onepage12.html">Onepage 12</a> </li>
+                                                                     <li><a href="onepage13.html">Onepage 13</a> </li>
+                                                                     <li><a href="onepage14.html">Onepage 14</a> </li>
+                                                                     <li><a href="onepage15.html">Onepage 15</a> </li>
+                                                                     <li><a href="onepage16.html">Onepage 16</a> </li>
+                                                                     <li><a href="onepage17.html">Onepage 17</a> </li>
+                                                                     <li><a href="#">Coming Soon</a> </li>
+                                                                     <li class="last-item"><a href="#">Coming Soon</a> </li>
+                                                                 </ul>
+                                                             </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul> <!-- //.mega-menu --> 
+                                                </li>
+
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Pages</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Services</a>
+                                                            <ul class="sub-menu">
+                                                                <li><a href="services.html">Services 1</a> </li>
+                                                                <li class="last-item"><a href="services2.html">Services 2</a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="services-single.html">Services Single</a></li>
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Our Peoples</a>
+                                                            <ul class="sub-menu">
+                                                                <li><a href="team.html">Team Grid Style1</a> </li>
+                                                                <li class="last-item"><a href="team2.html">Team Grid Style2</a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="price-tables.html">Price Tables</a></li>
+                                                        <li class="last-item"><a href="faq.html">Faq</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Portfolios</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="portfolio.html">Portfolio One</a></li>
+                                                        <li><a href="portfolio2.html">Portfolio Two</a></li>
+                                                        <li><a href="portfolio3.html">Portfolio Three</a></li>
+                                                        <li><a href="portfolio4.html">Portfolio Four</a></li>
+                                                        <li><a href="portfolio5.html">Portfolio Five</a></li>
+                                                        <li><a href="portfolio6.html">Portfolio Six</a></li>
+                                                        <li class="last-item menu-item-has-children">
+                                                            <a href="#">Portfolio Single</a>
+                                                            <ul class="sub-menu">
+                                                                <li><a href="portfolio-standard.html">Standard Style</a> </li>
+                                                                <li><a href="portfolio-slider.html">Slider Style</a> </li>
+                                                                <li class="last-item"><a href="portfolio-gallery.html">Gallery Style</a> </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Blog</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="blog.html">Blog</a></li>
+                                                        <li class="last-item"><a href="blog-single.html">Blog Single</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Shop</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="shop.html">Shop</a></li>
+                                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                                        <li><a href="cart.html">Cart</a></li>
+                                                        <li><a href="checkout.html">Checkout</a></li>
+                                                        <li class="last-item"><a href="account.html">My Account</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item-has-children current-menu-item">
+                                                    <a href="#">Contact</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="active"><a href="contact.html">Contact 1</a></li>
+                                                        <li class="last-item"><a href="contact2.html">Contact 2</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul> <!-- //.nav-menu -->
+                                        </nav>
+                                    </div> <!-- //.main-menu -->
+                                    <div class="expand-btn-inner">
+                                        <ul>
+                                            <li class="search-parent">
+                                                <a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal" href="#">
+                                                    <i class="flaticon-search"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a id="nav-expander" class="humburger nav-expander" href="#">
+                                                    <span class="dot1"></span>
+                                                    <span class="dot2"></span>
+                                                    <span class="dot3"></span>
+                                                    <span class="dot4"></span>
+                                                    <span class="dot5"></span>
+                                                    <span class="dot6"></span>
+                                                    <span class="dot7"></span>
+                                                    <span class="dot8"></span>
+                                                    <span class="dot9"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li class="ul">大阪支部
-                                    <br>〒532-0012 大阪府大阪市淀川区木川東４丁目５−３
-                                </li>
-                                <li>
-                                    <div class="iframe-wrap">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.0501090566845!2d135.4915318147185!3d34.72913128920377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43130b5e829%3A0x4f00da5f97f8ed!2z44CSNTMyLTAwMTIg5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy65pyo5bed5p2x77yU5LiB55uu77yV4oiS77yT!5e0!3m2!1sja!2sjp!4v1618474823571!5m2!1sja!2sjp"
-                                            width="600" height="450" style="border:0;" allowfullscreen=""
-                                            loading="lazy"></iframe>
-                                    </div>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">連絡先</th>
-                        <td class="campany-td">06-6770-9626</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">代表取締役</th>
-                        <td class="campany-td">大森道秋</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">従業員数</th>
-                        <td class="campany-td">29名</td>
-                    </tr>
-                    <tr>
-                        <th class="campany-th">事業内容</th>
-                        <td class="campany-td1">
-                            <ul>
-                                <li class="ul">・WEB制作事業
-                                    <br>(サイト構築/コンサルティング/マーケティング/デザイン)
-                                </li>
-                                <li class="ul">・システム開発事業</li>
-                                <li class="ul">・EC事業
-                                    <br>(ECサイト構築/運用/コンサルティング/マーケティング)
-                                </li>
-                                <li class="ul">・クリエイティブ制作事業
-                                    （ロゴ制作/販促物/デジタルコンテンツ）</li>
-                                <li class="ul">・店舗経営コンサルティング
-													(飲食デリバリーコンサルティング)</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu End -->
+
+                <!-- Canvas Menu start -->
+                <nav class="right_menu_togle hidden-md">
+                    <div class="close-btn">
+                        <span id="nav-close" class="humburger">
+                            <span class="dot1"></span>
+                            <span class="dot2"></span>
+                            <span class="dot3"></span>
+                            <span class="dot4"></span>
+                            <span class="dot5"></span>
+                            <span class="dot6"></span>
+                            <span class="dot7"></span>
+                            <span class="dot8"></span>
+                            <span class="dot9"></span>
+                        </span>
+                    </div>
+                    <div class="canvas-logo">
+                        <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
+                    </div>
+                    <div class="offcanvas-text">
+                        <p>Consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor aliquam posuere tortor develop database.</p>
+                    </div>
+                    <div class="canvas-contact">
+                        <ul class="contact">
+                            <li><i class="flaticon-location"></i> 374 William S Canning Blvd, Fall River MA 2721, USA</li>
+                            <li><i class="flaticon-call"></i><a href="tel:+880155-69569">(+880)155-69569</a></li>
+                            <li><i class="flaticon-email"></i><a href="mailto:support@rstheme.com">support@rstheme.com</a></li>
+                            <li><i class="flaticon-clock"></i>10:00 - 17:00</li>
+                        </ul>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Canvas Menu end -->
+            </header>
+            <!--Header End-->
         </div>
-    </div>
-	</body>
+        <!--Full width header End-->
+
+		<!-- Main content Start -->
+        <div class="main-content">
+            <!-- Breadcrumbs Section Start -->
+            <div class="rs-breadcrumbs bg-6">
+                <div class="container">
+                    <div class="content-part text-center">
+                        <h1 class="breadcrumbs-title white-color mb-0">Contact</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Breadcrumbs Section End -->
+
+            <!-- Contact Section Start -->
+            <div id="rs-contact" class="rs-contact inner pt-100 md-pt-80">
+                <div class="container">
+                    <div class="content-info-part mb-60">
+                        <div class="row gutter-16">
+                            <div class="col-lg-4 md-mb-30">
+                                <div class="info-item">
+                                    <div class="icon-part">
+                                        <i class="fa fa-at"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4 class="title">Phone Number</h4>
+                                        <a href="tel:+088589-8745">(+088)589-8745</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 md-mb-30">
+                                <div class="info-item">
+                                    <div class="icon-part">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4 class="title">Email Address</h4>
+                                        <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="info-item">
+                                    <div class="icon-part">
+                                        <i class="fa fa-map-o"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4 class="title">Office Address</h4>
+                                        <p>228 Main Street, Georgia, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-part">
+                        <div class="row md-col-padding">
+                            <div class="col-md-5 custom1 pr-0">
+                                <div class="img-part"></div>
+                            </div>
+                            <div class="col-md-7 custom2 pl-0">
+                                <div id="form-messages"></div>
+                                <form id="contact-form" method="post" action="mailer.php">
+                                    <div class="sec-title mb-53 md-mb-42">
+                                        <div class="sub-title white-color">Let's Talk</div>
+                                        <h2 class="title white-color mb-0">Get In Touch</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="text" name="name" placeholder="Name" required="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" name="email" placeholder="E-mail" required="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="phone" placeholder="Phone Number" required="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="website" placeholder="Your Website" required="">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="message" placeholder="Your Message Here" required=""></textarea>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="readon modify">Submit Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-map mt-100 md-mt-80">
+                    <iframe src="https://maps.google.com/maps?q=37.803467%2C%20-122.472369&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+            </div>
+            <!-- Contact Section End -->
+        </div> 
+        <!-- Main content End -->
+
+        <!-- Footer Start -->
+        <footer id="rs-footer" class="rs-footer">
+            <div class="container">
+                <div class="footer-newsletter">
+                    <div class="row y-middle">
+                        <div class="col-md-6 sm-mb-26">
+                            <h3 class="title white-color mb-0">Newsletter Subscribe</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <form class="newsletter-form">
+                                <input type="email" name="email" placeholder="Your email address" required="">
+                                <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-62 pb-79 md-pb-64 sm-pt-48">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
+                            <div class="about-widget pr-15">
+                                <div class="logo-part">
+                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Footer Logo"></a>
+                                </div>
+                                <p class="desc">We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                                <div class="btn-part">
+                                    <a class="readon" href="about.html">Discover More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <ul class="address-widget pr-40">
+                                <li>
+                                    <i class="flaticon-location"></i>
+                                    <div class="desc">374 William S Canning Blvd, Fall River MA 2721, USA</div>
+                                </li>
+                                <li>
+                                    <i class="flaticon-call"></i>
+                                    <div class="desc">
+                                        <a href="tel:+8801739753105">(+880)173-9753105</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="flaticon-email"></i>
+                                    <div class="desc">
+                                        <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="flaticon-clock"></i>
+                                    <div class="desc">
+                                        10:00 - 17:00
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
+                            <h4 class="widget-title">Latest Posts</h4>
+                            <div class="footer-post">
+                                <div class="post-wrap mb-15">
+                                    <div class="post-img">
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="post-desc">
+                                        <a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a>
+                                        <div class="date-post">
+                                            <i class="fa fa-calendar"></i>
+                                            September 6, 2019
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-wrap mb-15">
+                                    <div class="post-img">
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="post-desc">
+                                        <a href="blog-single.html">Soundtrack filma Lady Exclusive Music</a>
+                                        <div class="date-post">
+                                            <i class="fa fa-calendar"></i>
+                                            April 15, 2019
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-wrap">
+                                    <div class="post-img">
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="post-desc">
+                                        <a href="blog-single.html">Winged moved stars, fruit creature seed night.</a>
+                                        <div class="date-post">
+                                            <i class="fa fa-calendar"></i>
+                                            October 9, 2019
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row y-middle">
+                        <div class="col-lg-6 col-md-8 sm-mb-21">
+                            <div class="copyright">
+                                <p>© Copyright 2021 Reobiz. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 text-right sm-text-center">
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- start scrollUp  -->
+        <div id="scrollUp">
+            <i class="fa fa-angle-up"></i>
+        </div>
+        <!-- End scrollUp  -->
+
+        <!-- Search Modal Start -->
+        <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class="flaticon-cross"></span>
+            </button>
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="search-block clearfix">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Search Here..." type="text" required="">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search Modal End -->
+
+        <script>
+        
+        </script>
+        <!-- modernizr js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
+        <!-- Bootstrap v4.4.1 js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+        <!-- Menu js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/rsmenu-main.js"></script> 
+        <!-- op nav js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.nav.js"></script>
+        <!-- owl.carousel js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
+        <!-- Slick js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/isotope.pkgd.min.js"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/imagesloaded.pkgd.min.js"></script>
+        <!-- wow js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/wow.min.js"></script>
+        <!-- aos js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/aos.js"></script>
+        <!-- Skill bar js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/skill.bars.jquery.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.counterup.min.js"></script>        
+         <!-- counter top js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/waypoints.min.js"></script>
+        <!-- video js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.mb.YTPlayer.min.js"></script>
+        <!-- magnific popup js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Nivo slider js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
+        <!-- plugins js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
+        <!-- contact form js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/contact.form.js"></script>
+        <!-- main js -->
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+    </body>
 </html>
-
-

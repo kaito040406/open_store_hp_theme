@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: service.php
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
@@ -9,41 +15,41 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+        <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/fav.png">
         <!-- Bootstrap v4.4.1 css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
         <!-- font-awesome css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css">
         <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.css">
         <!-- aos css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/aos.css">
         <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.css">
         <!-- slick css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css">
         <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/off-canvas.css">
         <!-- linea-font css -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/linea-fonts.css">
         <!-- flaticon css  -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/flaticon.css">
         <!-- magnific popup css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/magnific-popup.css">
         <!-- Main Menu css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-main.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/rsmenu-main.css">
         <!-- nivo slider CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/nivo-slider.css">
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/preview.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/css/nivo-slider.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/css/preview.css">
         <!-- rsmenu transitions css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-transitions.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/rsmenu-transitions.css">
         <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/rs-spacing.css">
         <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>"> <!-- This stylesheet dynamically changed from style.less -->
         <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
     </head>
     <body>
 
@@ -91,7 +97,7 @@
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="logo-area">
-                                    <a href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a>
+                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-lg-9 text-right">
@@ -287,7 +293,7 @@
                         </span>
                     </div>
                     <div class="canvas-logo">
-                        <a href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a>
+                        <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
                     </div>
                     <div class="offcanvas-text">
                         <p>Consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor aliquam posuere tortor develop database.</p>
@@ -341,7 +347,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/1.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/1.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Business Analysis</a></h3>
@@ -352,7 +358,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/2.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/2.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Reports Analysis</a></h3>
@@ -363,7 +369,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/3.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/3.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Profit Planning</a></h3>
@@ -374,7 +380,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/4.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/4.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Profit Planning</a></h3>
@@ -385,7 +391,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/5.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/5.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Project Reporting </a></h3>
@@ -396,7 +402,7 @@
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="assets/images/services/style2/6.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/6.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">Estate Planning</a></h3>
@@ -487,7 +493,7 @@
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
                             <div class="about-widget pr-15">
                                 <div class="logo-part">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="Footer Logo"></a>
+                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Footer Logo"></a>
                                 </div>
                                 <p class="desc">We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
                                 <div class="btn-part">
@@ -527,7 +533,7 @@
                             <div class="footer-post">
                                 <div class="post-wrap mb-15">
                                     <div class="post-img">
-                                        <a href="blog-single.html"><img src="assets/images/blog/small/1.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/1.jpg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
                                         <a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a>
@@ -539,7 +545,7 @@
                                 </div>
                                 <div class="post-wrap mb-15">
                                     <div class="post-img">
-                                        <a href="blog-single.html"><img src="assets/images/blog/small/2.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/2.jpg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
                                         <a href="blog-single.html">Soundtrack filma Lady Exclusive Music</a>
@@ -551,7 +557,7 @@
                                 </div>
                                 <div class="post-wrap">
                                     <div class="post-img">
-                                        <a href="blog-single.html"><img src="assets/images/blog/small/3.jpg" alt=""></a>
+                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/3.jpg" alt=""></a>
                                     </div>
                                     <div class="post-desc">
                                         <a href="blog-single.html">Winged moved stars, fruit creature seed night.</a>
@@ -613,43 +619,43 @@
         <!-- Search Modal End -->
 
         <!-- modernizr js -->
-        <script src="assets/js/modernizr-2.8.3.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modernizr-2.8.3.min.js"></script>
         <!-- jquery latest version -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
         <!-- Bootstrap v4.4.1 js -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
         <!-- Menu js -->
-        <script src="assets/js/rsmenu-main.js"></script> 
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/rsmenu-main.js"></script> 
         <!-- op nav js -->
-        <script src="assets/js/jquery.nav.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.nav.js"></script>
         <!-- owl.carousel js -->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
         <!-- Slick js -->
-        <script src="assets/js/slick.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
         <!-- isotope.pkgd.min js -->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/isotope.pkgd.min.js"></script>
         <!-- imagesloaded.pkgd.min js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/imagesloaded.pkgd.min.js"></script>
         <!-- wow js -->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/wow.min.js"></script>
         <!-- aos js -->
-        <script src="assets/js/aos.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/aos.js"></script>
         <!-- Skill bar js -->
-        <script src="assets/js/skill.bars.jquery.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>        
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/skill.bars.jquery.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.counterup.min.js"></script>        
          <!-- counter top js -->
-        <script src="assets/js/waypoints.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/waypoints.min.js"></script>
         <!-- video js -->
-        <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.mb.YTPlayer.min.js"></script>
         <!-- magnific popup js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.magnific-popup.min.js"></script>
         <!-- Nivo slider js -->
-        <script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
         <!-- plugins js -->
-        <script src="assets/js/plugins.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
         <!-- contact form js -->
-        <script src="assets/js/contact.form.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/contact.form.js"></script>
         <!-- main js -->
-        <script src="assets/js/main.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
     </body>
 </html>
