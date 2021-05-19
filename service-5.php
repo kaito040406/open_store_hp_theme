@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single2.php
+Template Name: service-5.php
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: service-single2.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">WEBサービス制作/開発</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0">クリエイティブ制作</h1>
                     </div>
                 </div>
             </div>
@@ -25,23 +25,19 @@ Template Name: service-single2.php
                         <div class="col-lg-8 pr-40 md-pr-15 md-mb-50">
                             <img class="mb-39" src="assets/images/services/single/service-single.jpg" alt="">
 
-                            <h2>WEB制作/開発とは</h2>
+                            <h2>クリエイティブ制作とは</h2>
 
                             <p class="desc mb-31">
-                            WEBサイト構築とは、単にテキスト要素を含むHTMLファイルとデザイン要素としての
-                            画像ファイルの組み合わせを行うことではありません。
-                            WEBサイトを立ち上げたい、リニューアルしたい、売り上げを伸ばしたい、など様々なニーズがありますが、
-                            WEBサイトを構築するための全工程をしっかり把握してから構築を行っている企業は、どれくらいあるでしょうか？
-                            特に、WEBサイトを企業のマーケティングツールとして捉えた場合はなおさらです。
-                            その場合、WEBサイト構築の目的は「より多くのお客様からコンタクトをもらえるような仕組み」を作ることです。
+                            ブランドのネーミングからブランドスローガンやステートメントのコピーライティング、ブランドイメージにふさわしい商品やモデルの撮影、ブランドサイトやランディングページのWEBデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。
+                            たったひとつのロゴやパッケージだとしても、ブランドのビジョンや文脈にふさわしいあり方を目指してデザインに取り組んでいます。
+                            その一つひとつの積み重ねが、ターゲットやコミュニティとの繋がりを生み出し、
+                            対話のチャンスを広げるブランドを実現させると信じて、クライアントと共に関わる全ての仕事を成功させていきたいと願っています。
                             </p>
 
                             <ul class="listing-style regular2 pl-10 sm-pl-0">
-                                <li>コーポレートサイト</li>
-                                <li>サービスサイト</li>
-                                <li>LP(ランディングページ)</li>
-                                <li>オウンドメディア</li>
-                                <li>リクルートサイト</li>
+                                <li>パンフレット・カタログ制作</li>
+                                <li>ユニフォームデザイン</li>
+                                <li>コンテンツ制作</li>
                             </ul>
 
                             <div class="content-part text-center pt-160 pb-160">
@@ -49,10 +45,10 @@ Template Name: service-single2.php
                             </div>
 
 
-                            <h3 style="padding-top:50px;">あくまでもユーザーのためのもの。</h3>
+                            <h3 style="padding-top:50px;">創造がビジネスを加速させる</h3>
                             <p class="desc mb-53">
-                            お客様の「伝えたいコト」「やりたいコト」と
-                            ユーザーの「求めているコト」を用いて様々なカタチで実現します。
+                            ユーザーのココロと行動を変化させ、 お客様のブランドが
+                            人々の記憶に深く刻まれるような "伝わる"クリエイティブを制作します。
                             </p>
 
                             <div class="row gutter-20">
