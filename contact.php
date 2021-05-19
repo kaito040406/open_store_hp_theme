@@ -65,6 +65,12 @@ Template Name: contact.php
                             </div>
                             <div class="col-md-7 custom2 pl-0">
                                 <div id="form-messages"></div>
+                                <!-- <?php
+                                    $get_form = get_posts(array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1, 'name' => 'コンタクトフォーム 1'))[0];
+                                    ?>
+
+                                    <?php echo do_shortcode( '[contact-form-7 id="'.$get_form->ID.'" title="'.$get_form->post_title.'"]' ); ?>  -->
+
                                 <form id="contact-form" method="post" action="mailer.php">
                                     <div class="sec-title mb-53 md-mb-42">
                                         <div class="sub-title white-color">Let's Talk</div>
