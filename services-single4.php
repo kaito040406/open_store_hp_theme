@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single2.php
+Template Name: service-single3.php
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: service-single2.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">WEBサービス制作/開発</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0">WEBマーケティング/運用</h1>
                     </div>
                 </div>
             </div>
@@ -25,23 +25,22 @@ Template Name: service-single2.php
                         <div class="col-lg-8 pr-40 md-pr-15 md-mb-50">
                             <img class="mb-39" src="assets/images/services/single/service-single.jpg" alt="">
 
-                            <h2>WEB制作/開発とは</h2>
+                            <h2>WEBマーケティング/運用とは</h2>
 
                             <p class="desc mb-31">
-                            WEBサイト構築とは、単にテキスト要素を含むHTMLファイルとデザイン要素としての
-                            画像ファイルの組み合わせを行うことではありません。
-                            WEBサイトを立ち上げたい、リニューアルしたい、売り上げを伸ばしたい、など様々なニーズがありますが、
-                            WEBサイトを構築するための全工程をしっかり把握してから構築を行っている企業は、どれくらいあるでしょうか？
-                            特に、WEBサイトを企業のマーケティングツールとして捉えた場合はなおさらです。
-                            その場合、WEBサイト構築の目的は「より多くのお客様からコンタクトをもらえるような仕組み」を作ることです。
+                            デジタル領域のマーケティングを中心に、データ解析と効果計測に基づく実践的マーケティングの立案から実施・コンサルティングまで柔軟に対応いたします。
+                            また、ブランド構築やインフルエンサー・メディア・広告の運用など、幅広い領域のソリューションでお客様の事業を一貫してサポートいたします。
+                            WEBサイト運営に不可欠な各種広告の運用やデータ解析を通じてマーケティング活動を支援。
+                            また販売パートナー開拓を通じた集客・販売活動支援など幅広くお手伝いしています。
                             </p>
 
                             <ul class="listing-style regular2 pl-10 sm-pl-0">
-                                <li>コーポレートサイト</li>
-                                <li>サービスサイト</li>
-                                <li>LP(ランディングページ)</li>
-                                <li>オウンドメディア</li>
-                                <li>リクルートサイト</li>
+                                <li>ターゲティング戦略</li>
+                                <li>インフルエンサーマーケティング</li>
+                                <li>GDN・YDN広告</li>
+                                <li>リスティング広告</li>
+                                <li>ユーザビリティ調査</li>
+                                <li>ヒューリスティック評価</li>
                             </ul>
 
                             <div class="content-part text-center pt-160 pb-160">
@@ -49,10 +48,10 @@ Template Name: service-single2.php
                             </div>
 
 
-                            <h3 style="padding-top:50px;">あくまでもユーザーのためのもの。</h3>
+                            <h3 style="padding-top:50px;">「だれに」「どこで」「どう伝えるか」</h3>
                             <p class="desc mb-53">
-                            お客様の「伝えたいコト」「やりたいコト」と
-                            ユーザーの「求めているコト」を用いて様々なカタチで実現します。
+                            デジタル広告の重要性が非常に高まっている今
+                            インターネット上でユーザーを集める為の仕組みづくりを提供します。
                             </p>
 
                             <div class="row gutter-20">
