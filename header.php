@@ -85,27 +85,27 @@
                                         </div>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
-                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="#">オープンストア</a>
+                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/">オープンストア</a>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">サービス</a>
+                                                    <a href="/services">サービス</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="/about">WEBコンサルティング</a></li>
-                                                        <li><a href="#">WEBサービス制作/開発</a></li>
-                                                        <li><a href="services-single.html">ECサイト構築/運営</a></li>
-                                                        <li ><a href="#">WEBマーケティング/運用</a></li>
-                                                        <li><a href="price-tables.html">クリエイティブ制作</a></li>
-                                                        <li class="last-item"><a href="faq.html">システム開発</a></li>
+                                                        <li><a href="/services-single">WEBコンサルティング</a></li>
+                                                        <li><a href="/services-single">WEBサービス制作/開発</a></li>
+                                                        <li><a href="/services-single">ECサイト構築/運営</a></li>
+                                                        <li ><a href="/services-single">WEBマーケティング/運用</a></li>
+                                                        <li><a href="/services-single">クリエイティブ制作</a></li>
+                                                        <li class="last-item"><a href="/services-single">システム開発</a></li>
                                                     </ul>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
                                                     <a href="#">NEWS</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="portfolio.html">オープンストアブログ</a></li>
-                                                        <li><a href="portfolio2.html">お知らせ(ブログ)</a></li>
-                                                        <li><a href="portfolio3.html">Q&A</a></li>
+                                                        <li><a href="/blog">オープンストアブログ</a></li>
+                                                        <li><a href="/blog">お知らせ(ブログ)</a></li>
+                                                        <li><a href="/blog">Q&A</a></li>
                                                     </ul>
                                                 </li>
 
@@ -118,7 +118,7 @@
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">お問い合わせ</a>
+                                                    <a href="/contact">お問い合わせ</a>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
                                         </nav>
