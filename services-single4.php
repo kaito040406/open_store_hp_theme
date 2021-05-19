@@ -5,7 +5,6 @@ Template Name: service-single3.php
 ?>
 
 <?php get_header(); ?>
-
 		<!-- Main content Start -->
         <div class="main-content">
             <!-- Breadcrumbs Section Start -->
