@@ -92,11 +92,11 @@
                                                     <a href="/services">サービス</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="/services-single">WEBコンサルティング</a></li>
-                                                        <li><a href="/services-single">WEBサービス制作/開発</a></li>
-                                                        <li><a href="/services-single">ECサイト構築/運営</a></li>
-                                                        <li ><a href="/services-single">WEBマーケティング/運用</a></li>
-                                                        <li><a href="/services-single">クリエイティブ制作</a></li>
-                                                        <li class="last-item"><a href="/services-single">システム開発</a></li>
+                                                        <li><a href="/services-single2">WEBサービス制作/開発</a></li>
+                                                        <li><a href="/services-single3">ECサイト構築/運営</a></li>
+                                                        <li ><a href="/services-single4">WEBマーケティング/運用</a></li>
+                                                        <li><a href="/services-single5">クリエイティブ制作</a></li>
+                                                        <li class="last-item"><a href="/services-single6">システム開発</a></li>
                                                     </ul>
                                                 </li>
 
