@@ -40,7 +40,7 @@ Template Name: service.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/1.jpg" alt="">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">WEBコンサルティング</a></h3>
+                                    <h3 class="title"><a href="/">WEBコンサルティング</a></h3>
                                     <div class="desc">「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？</div>
                                 </div>
                             </div>
