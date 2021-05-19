@@ -4287,7 +4287,7 @@ input[type=range]::-ms-fill-upper {
 }
 .full-width-header.header-style2 .rs-header .menu-area {
   transition: all 0.3s ease;
-  background: transparent;
+  /* background: transparent; */
 }
 .full-width-header.header-style2 .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
   color: #ffffff;
@@ -8306,7 +8306,7 @@ body .modal-backdrop {
   transition: all ease .3s;
 }
 .rs-services.style16 .services-wrap .icon-part {
-  background-image: url(img/nishi/368-×-348.png);
+  background-image: url(img/nishi/under_image.png);
   border-radius: 2px;
   margin-left: 11px;
   margin-top: 11px;
@@ -8347,7 +8347,7 @@ body .modal-backdrop {
   font-weight: 600;
 }
 .rs-services.style16 .services-wrap:hover {
-  background-image: url(img/nishi/368-×-348.png);
+  background-image: url(img/nishi/under_image.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16303,7 +16303,7 @@ body .modal-backdrop {
   margin: 0;
 }
 .rs-footer.style3 {
-  background: url(img/nishi/1920×802.png);
+  background: url(img/nishi/footer.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
