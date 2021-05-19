@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="banner-content">
-                                <h2 class="title">あなたのを<span class="watermark">価値を<br>全ての場所に</span></h2>
+                                <h2 class="title">あなたの<span class="watermark">価値を<br>全ての場所に</span></h2>
                                 <div class="description">
                                     <p>- Branding your value everywhere -</p>
                                 </div>
