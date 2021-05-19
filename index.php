@@ -5,22 +5,22 @@
 
             <!-- Banner Start -->
             <div class="rs-banner style4">
-               <div class="container">
-                   <div class="row">
-                       <div class="col-lg-7">
-                           <div class="banner-content">
-                               <h2 class="title">あなたの<span class="watermark">価値を<br>全ての場所に</span></h2>
-                               <div class="description">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="banner-content">
+                                <h2 class="title">あなたの<span class="watermark">価値を<br>全ての場所に</span></h2>
+                                <div class="description">
                                     <p>- Branding your value everywhere -</p>
                                 </div>
                                 <div class="btn-part">
                                     <a class="readon2 get-new" href="contact.html">オープンストアとは？</a>
                                 </div>
-                           </div>
-                       </div>
-                       <div class="col-lg-5"></div>
-                   </div>
-               </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5"></div>
+                    </div>
+                </div>
                 <div class="animate-part">
                     <div class="spiner dot-style">
                         <img class="rotated-style" src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/style2/banner-shape.png" alt="images">
@@ -196,9 +196,9 @@
                                 </div>
                                 <div class="services-txt">
                                     <h4 class="services-title"><a href="services-single.html">ECサイト構築/運営</a></h4>
-                                    <p class="services-txt"></p>
+                                    <p class="services-txt">お客様の商品やオリジナルブランドを独自のオンラインショップを通じて誰にでもどこにでもお届けすることができます。</p>
                                     <div class="serial-number"> ~~~ 03</div>
-                                </div>お客様の商品やオリジナルブランドを独自のオンラインショップを通じて誰にでもどこにでもお届けすることができます。
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 md-mb-25">
@@ -241,6 +241,61 @@
                 </div>
             </div>
             <!-- Services Section End -->
+
+            <!-- Why Choose Section Start -->
+            <div class="rs-whychooseus style8 bg31">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 md-mb-50">
+                            <div class="sec-title3 mb-40">
+                                <span class="sub-title">~ <span class="title-upper">Strategy</span> ~</span>
+                                <h2 class="title">様々なビジネス課題をWEBサイトで解決してきた私たちがWEBサイトの活用方法をご提案します。</h2>
+                            </div>
+                            <div class="services-part mb-40">
+                                <div class="services-icon">
+                                    <i class="fa fa-briefcase"></i> 
+                                </div>
+                                <div class="services-text">
+                                    <div class="services-title"><h3 class="title"><a href="#">課題解決に向けた、きめ細かなご提案</a></h3></div>
+                                    <p class="services-txt"> Webサイトの持つべき目標や役割は様々です。私たちはクライアントとの綿密な打ち合わせにより、達成すべきゴールを明確にし、最適な導線を設計し、こだわった構築を実現します。</p>
+                                </div>
+                            </div>
+                            <div class="services-part mb-40">
+                                <div class="services-icon">
+                                    <i class="fa fa-signal"></i> 
+                                </div>
+                                <div class="services-text">
+                                    <div class="services-title"><h3 class="title"><a href="#">WEBサービス開発、構築</a></a></h3></div>
+                                    <p class="services-txt"> 企画・デザイン・開発をワンストップで圧倒的な高品質でご提供。<br>クラウドサービスの提供・ITインフラの構築・運用までご相談ください。</p>
+                                </div>
+                            </div>
+                            <div class="services-part">
+                                <div class="services-icon">
+                                    <i class="fa fa-sitemap"></i> 
+                                </div>
+                                <div class="services-text">
+                                    <div class="services-title"><h3 class="title"><a href="#">Webマーケティング</a></h3></div>
+                                    <p class="services-txt"> 「どうしたらサイトへのアクセスを増やせるのか」「どうしたらもっと自社サイトからの採用や売上を増やせるのか」など、解析・運用方法を相談しながら、お客様が抱える課題に応じて解決策を考え、お客様と共に歩んでいくことが私たちの使命です。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 pl-70 md-pl-15">
+                            <div class="images-part">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/nishi/600×578-top.png" alt="images">
+                            </div>
+                            <div class="rs-animations">
+                                <div class="shape-icons one">
+                                    <img class="dance2" src="<?php echo get_template_directory_uri(); ?>/assets/images/whychooseus/style8/shape/1.png" alt="images">
+                                </div>
+                                <div class="shape-icons two">
+                                    <img class="scale" src="<?php echo get_template_directory_uri(); ?>/assets/images/whychooseus/style8/shape/2.png" alt="images">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Why Choose Section End -->
 
                         <!-- Blog Section Start -->
                         <div id="rs-blog" class="rs-blog style1 modify2 modify-home13 pt-93 pb-70 md-pt-73 md-pb-0">
@@ -430,190 +485,6 @@
             </div> -->
             <!-- Counter Section End -->
 
-            <!-- Why Choose Section Start -->
-            <div class="rs-whychooseus style8 bg31">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 md-mb-50">
-                            <div class="sec-title3 mb-40">
-                                <span class="sub-title">~ <span class="title-upper">Strategy</span> ~</span>
-                                <h2 class="title">様々なビジネス課題をWEBサイトで解決してきた私たちがWEBサイトの活用方法をご提案します。</h2>
-                            </div>
-                            <div class="services-part mb-40">
-                                <div class="services-icon">
-                                    <i class="fa fa-briefcase"></i> 
-                                </div>
-                                <div class="services-text">
-                                    <div class="services-title"><h3 class="title"><a href="#">課題解決に向けた、きめ細かなご提案</a></h3></div>
-                                    <p class="services-txt"> Webサイトの持つべき目標や役割は様々です。私たちはクライアントとの綿密な打ち合わせにより、達成すべきゴールを明確にし、最適な導線を設計し、こだわった構築を実現します。</p>
-                                </div>
-                            </div>
-                            <div class="services-part mb-40">
-                                <div class="services-icon">
-                                    <i class="fa fa-signal"></i> 
-                                </div>
-                                <div class="services-text">
-                                    <div class="services-title"><h3 class="title"><a href="#">WEBサービス開発、構築</a></a></h3></div>
-                                    <p class="services-txt"> 企画・デザイン・開発をワンストップで圧倒的な高品質でご提供。<br>クラウドサービスの提供・ITインフラの構築・運用までご相談ください。</p>
-                                </div>
-                            </div>
-                            <div class="services-part">
-                                <div class="services-icon">
-                                    <i class="fa fa-sitemap"></i> 
-                                </div>
-                                <div class="services-text">
-                                    <div class="services-title"><h3 class="title"><a href="#">Webマーケティング</a></h3></div>
-                                    <p class="services-txt"> 「どうしたらサイトへのアクセスを増やせるのか」「どうしたらもっと自社サイトからの採用や売上を増やせるのか」など、解析・運用方法を相談しながら、お客様が抱える課題に応じて解決策を考え、お客様と共に歩んでいくことが私たちの使命です。</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 pl-70 md-pl-15">
-                            <div class="images-part">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/whychooseus/style8/seo-image.png" alt="images">
-                            </div>
-                            <div class="rs-animations">
-                                <div class="shape-icons one">
-                                    <img class="dance2" src="<?php echo get_template_directory_uri(); ?>/assets/images/whychooseus/style8/shape/1.png" alt="images">
-                                </div>
-                                <div class="shape-icons two">
-                                    <img class="scale" src="<?php echo get_template_directory_uri(); ?>/assets/images/whychooseus/style8/shape/2.png" alt="images">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Why Choose Section End -->
-
-            <!-- Testimonial Section Start -->
-            <!-- <div class="rs-testimonial style11">
-                <div class="container">
-                    <div class="sec-title3 text-center mb-40">
-                        <span class="sub-title">~ <span class="title-upper">Testimonials</span> ~</span>
-                        <h2 class="title">Clients Testimonials</h2>
-                    </div>
-                    <div class="testi-main-part bg32">
-                        <div class="slick-part single-product-slider">
-                            <div class="slider slider-for">
-                                <div class="images-slide-single">
-                                    <div class="single-testimonial">
-                                        <div class="content-part">
-                                            <img class="quote" src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/qoute-icon2.png" alt="Image">
-                                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="images-slide-single">
-                                    <div class="single-testimonial">
-                                        <div class="content-part">
-                                            <img class="quote" src="assets/images/testimonial/qoute-icon2.png" alt="Image">
-                                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="images-slide-single">
-                                    <div class="single-testimonial">
-                                        <div class="content-part">
-                                            <img class="quote" src="assets/images/testimonial/qoute-icon2.png" alt="Image">
-                                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="images-slide-single">
-                                    <div class="single-testimonial">
-                                        <div class="content-part">
-                                            <img class="quote" src="assets/images/testimonial/qoute-icon2.png" alt="Image">
-                                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="images-slide-single">
-                                    <div class="single-testimonial">
-                                        <div class="content-part">
-                                            <img class="quote" src="assets/images/testimonial/qoute-icon2.png" alt="Image">
-                                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider slider-nav">
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/1.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Monty Moni</div>
-                                        <span class="testi-title">CEO, Brick Consulting</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/2.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Monir Khan</div>
-                                        <span class="testi-title">CEO, Brick Consulting</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/3.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Mala Akter</div>
-                                        <span class="testi-title">Digital Marketer</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/4.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Maria Akter</div>
-                                        <span class="testi-title">Youtuber</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/5.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Masud Rana</div>
-                                        <span class="testi-title">Web Developer</span>
-                                    </div>
-                                </div>  
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/1.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Monty Moni</div>
-                                        <span class="testi-title">CEO, Brick Consulting</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/2.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Monir Khan</div>
-                                        <span class="testi-title">CEO, Brick Consulting</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/3.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Mala Akter</div>
-                                        <span class="testi-title">Digital Marketer</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/4.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Maria Akter</div>
-                                        <span class="testi-title">Youtuber</span>
-                                    </div>
-                                </div>
-                                <div class="images-single">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial/avatar/5.jpg" alt="Single Product">
-                                    <div class="testi-content">
-                                        <div class="testi-name">Masud Rana</div>
-                                        <span class="testi-title">Web Developer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Testimonial Section End -->
-
                         <!-- Latest Project Section Start -->
                         <div class="rs-project style4 pt-100 pb-100 md-pt-70 md-pb-70">
                 <div id="rs-project-style4" class="rs-carousel owl-carousel">
@@ -693,5 +564,4 @@
         </div> 
         <!-- Main content End -->
 
-        <!-- Footer Start -->
 <?php get_footer(); ?>

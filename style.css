@@ -6873,7 +6873,7 @@ body .modal-backdrop {
   top: -800px;
 }
 .rs-banner.style4 {
-  background: url(assets/images/banner/style2/banner-right.png);
+  background: url(img/load_img.gif);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -8304,7 +8304,7 @@ body .modal-backdrop {
   transition: all ease .3s;
 }
 .rs-services.style16 .services-wrap .icon-part {
-  background-image: linear-gradient(200deg, #00a1f5 0%, #015eea 96%);
+  background-image: url(img/nishi/368-×-348.png);
   border-radius: 2px;
   margin-left: 11px;
   margin-top: 11px;
@@ -8345,7 +8345,7 @@ body .modal-backdrop {
   font-weight: 600;
 }
 .rs-services.style16 .services-wrap:hover {
-  background: url(assets/images/bg/service-bg2.jpg);
+  background-image: url(img/nishi/368-×-348.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16301,7 +16301,7 @@ body .modal-backdrop {
   margin: 0;
 }
 .rs-footer.style3 {
-  background: url(assets/images/bg/footer-bg13.png);
+  background: url(img/nishi/1920×802.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
