@@ -31,9 +31,9 @@
                     <div class="spiner horizontal2">
                         <img class="horizontal" src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/style2/line-shape.png" alt="images">
                     </div>
-                    <!-- <div class="spiner line-shape">
+                    <div class="spiner line-shape">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/style2/right-shape.png" alt="images">
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <!-- Banner End -->
