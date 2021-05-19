@@ -71,8 +71,8 @@
                         <div class="row custom-row">
                             <div class="col-cell">
                                 <div class="logo-area">
-                                    <a class="dark" href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
-                                    <a class="light" href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
+                                    <a class="dark" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
+                                    <a class="light" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-cell">
@@ -153,7 +153,7 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Pages</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="/about">About Us</a></li>
                                                         <li class="menu-item-has-children">
                                                             <a href="#">Services</a>
                                                             <ul class="sub-menu">
@@ -197,8 +197,8 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Blog</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li class="last-item"><a href="blog-single.html">Blog Single</a></li>
+                                                        <li><a href="/blog">Blog</a></li>
+                                                        <li class="last-item"><a href="/blog">Blog Single</a></li>
                                                     </ul>
                                                 </li>
 
@@ -216,8 +216,8 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Contact</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="contact.html">Contact 1</a></li>
-                                                        <li class="last-item"><a href="contact2.html">Contact 2</a></li>
+                                                        <li><a href="/contact">Contact 1</a></li>
+                                                        <li class="last-item"><a href="/contact">Contact 2</a></li>
                                                     </ul>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="col-cell hidden-lg">
-                                <div class="expand-btn-inner">
+                                <!-- <div class="expand-btn-inner">
                                     <ul>
                                         <li class="search-parent">
                                             <a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal" href="#">
@@ -235,7 +235,7 @@
                                         </li>
                                         <li class="quote-btn pl-20"><a href="#">Get A Quote</a></li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
