@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single3.php
+Template Name: service-1.php
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: service-single3.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">クリエイティブ制作</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0">WEBコンサルティング</h1>
                     </div>
                 </div>
             </div>
@@ -25,19 +25,21 @@ Template Name: service-single3.php
                         <div class="col-lg-8 pr-40 md-pr-15 md-mb-50">
                             <img class="mb-39" src="assets/images/services/single/service-single.jpg" alt="">
 
-                            <h2>クリエイティブ制作とは</h2>
+                            <h2>WEBコンサルタントとは</h2>
 
                             <p class="desc mb-31">
-                            ブランドのネーミングからブランドスローガンやステートメントのコピーライティング、ブランドイメージにふさわしい商品やモデルの撮影、ブランドサイトやランディングページのWEBデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。
-                            たったひとつのロゴやパッケージだとしても、ブランドのビジョンや文脈にふさわしいあり方を目指してデザインに取り組んでいます。
-                            その一つひとつの積み重ねが、ターゲットやコミュニティとの繋がりを生み出し、
-                            対話のチャンスを広げるブランドを実現させると信じて、クライアントと共に関わる全ての仕事を成功させていきたいと願っています。
+                            「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？
+                            中小企業の管理職や新米のWEB担当者など、WEBサイトの活用に関する知識や経験が少ない方から、
+                            「自社のWEBサイトはあるけれどどうやって改善していけばいいのか分からない」という悩みをよくお聞きします。
+                            インターネットの急速な普及により、WEBサイトからの売り上げを伸ばしている企業が急増しています。
+                            また、WEBサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
                             </p>
 
                             <ul class="listing-style regular2 pl-10 sm-pl-0">
-                                <li>パンフレット・カタログ制作</li>
-                                <li>ユニフォームデザイン</li>
-                                <li>コンテンツ制作</li>
+                                <li>戦略立案</li>
+                                <li>イノベーション支援</li>
+                                <li>コンセプト設計</li>
+                                <li>ブランディング戦略</li>
                             </ul>
 
                             <div class="content-part text-center pt-160 pb-160">
@@ -45,10 +47,10 @@ Template Name: service-single3.php
                             </div>
 
 
-                            <h3 style="padding-top:50px;">創造がビジネスを加速させる</h3>
+                            <h3 style="padding-top:50px;">「WEBサービス」の成功は戦略で決まる</h3>
                             <p class="desc mb-53">
-                            ユーザーのココロと行動を変化させ、 お客様のブランドが
-                            人々の記憶に深く刻まれるような "伝わる"クリエイティブを制作します。
+                            綿密なヒアリングをもとに、 WEBサービスの問題発見や解決策の提案、戦略立案などを中心に、
+                            お客様が最適なWEBサービスを活用できるようサポートします。
                             </p>
 
                             <div class="row gutter-20">

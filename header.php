@@ -85,7 +85,7 @@
                                         </div>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
-                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/">オープンストア</a>
+                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/about">会社概要</a>
                                                 </li>
 
                                                 <li class="menu-item-has-children">

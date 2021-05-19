@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single2.php
+Template Name: service-2.php
 */
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single.php
+Template Name: service-3.php
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: service-single.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">WEBコンサルティング</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0">ECサイト構築/運営</h1>
                     </div>
                 </div>
             </div>
@@ -25,21 +25,22 @@ Template Name: service-single.php
                         <div class="col-lg-8 pr-40 md-pr-15 md-mb-50">
                             <img class="mb-39" src="assets/images/services/single/service-single.jpg" alt="">
 
-                            <h2>WEBコンサルタントとは</h2>
+                            <h2>ECサイト構築/運営とは</h2>
 
                             <p class="desc mb-31">
-                            「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？
-                            中小企業の管理職や新米のWEB担当者など、WEBサイトの活用に関する知識や経験が少ない方から、
-                            「自社のWEBサイトはあるけれどどうやって改善していけばいいのか分からない」という悩みをよくお聞きします。
-                            インターネットの急速な普及により、WEBサイトからの売り上げを伸ばしている企業が急増しています。
-                            また、WEBサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
+                            実店舗を持っているがWEBでも販売したい、すでにWEBで商品を売っているが自社ショップを一新したいなど様々なご要望を伺い、
+                            お客様にあった最適なECサイト構築プランをご提案します。
+                            国外EC・国内ECの構築、運営代行をワンストップでサポートしています。
+                            ECサイト運営に必要な構築からブランディング、SEO対策、運用、分析改善、構築・カスタマイズ、オンラインEC決済、販促、マーケティング、SNS運用など幅広く対応しています。
+                            お客様の商品やオリジナルブランドを独自のオンラインショップを通じて日本中、世界中のユーザーに届けます
                             </p>
 
                             <ul class="listing-style regular2 pl-10 sm-pl-0">
-                                <li>戦略立案</li>
-                                <li>イノベーション支援</li>
-                                <li>コンセプト設計</li>
-                                <li>ブランディング戦略</li>
+                                <li>ECサイト制作</li>
+                                <li>システムカスタマイズ</li>
+                                <li>KPI設定</li>
+                                <li>サイト運営代行</li>
+                                <li>商品撮影</li>
                             </ul>
 
                             <div class="content-part text-center pt-160 pb-160">
@@ -47,10 +48,10 @@ Template Name: service-single.php
                             </div>
 
 
-                            <h3 style="padding-top:50px;">「WEBサービス」の成功は戦略で決まる</h3>
+                            <h3 style="padding-top:50px;">あなたのお店を、全ての場所に</h3>
                             <p class="desc mb-53">
-                            綿密なヒアリングをもとに、 WEBサービスの問題発見や解決策の提案、戦略立案などを中心に、
-                            お客様が最適なWEBサービスを活用できるようサポートします。
+                            お客様の商品やオリジナルブランドを独自のオンラインショップを通じて
+                            誰にでもどこにでもお届けすることができます。
                             </p>
 
                             <div class="row gutter-20">
