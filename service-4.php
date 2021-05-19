@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: service-single.php
+Template Name: service-4.php
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: service-single.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">WEBコンサルティング</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0">WEBマーケティング/運用</h1>
                     </div>
                 </div>
             </div>
@@ -25,21 +25,22 @@ Template Name: service-single.php
                         <div class="col-lg-8 pr-40 md-pr-15 md-mb-50">
                             <img class="mb-39" src="assets/images/services/single/service-single.jpg" alt="">
 
-                            <h2>WEBコンサルタントとは</h2>
+                            <h2>WEBマーケティング/運用とは</h2>
 
                             <p class="desc mb-31">
-                            「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？
-                            中小企業の管理職や新米のWEB担当者など、WEBサイトの活用に関する知識や経験が少ない方から、
-                            「自社のWEBサイトはあるけれどどうやって改善していけばいいのか分からない」という悩みをよくお聞きします。
-                            インターネットの急速な普及により、WEBサイトからの売り上げを伸ばしている企業が急増しています。
-                            また、WEBサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
+                            デジタル領域のマーケティングを中心に、データ解析と効果計測に基づく実践的マーケティングの立案から実施・コンサルティングまで柔軟に対応いたします。
+                            また、ブランド構築やインフルエンサー・メディア・広告の運用など、幅広い領域のソリューションでお客様の事業を一貫してサポートいたします。
+                            WEBサイト運営に不可欠な各種広告の運用やデータ解析を通じてマーケティング活動を支援。
+                            また販売パートナー開拓を通じた集客・販売活動支援など幅広くお手伝いしています。
                             </p>
 
                             <ul class="listing-style regular2 pl-10 sm-pl-0">
-                                <li>戦略立案</li>
-                                <li>イノベーション支援</li>
-                                <li>コンセプト設計</li>
-                                <li>ブランディング戦略</li>
+                                <li>ターゲティング戦略</li>
+                                <li>インフルエンサーマーケティング</li>
+                                <li>GDN・YDN広告</li>
+                                <li>リスティング広告</li>
+                                <li>ユーザビリティ調査</li>
+                                <li>ヒューリスティック評価</li>
                             </ul>
 
                             <div class="content-part text-center pt-160 pb-160">
@@ -47,10 +48,10 @@ Template Name: service-single.php
                             </div>
 
 
-                            <h3 style="padding-top:50px;">「WEBサービス」の成功は戦略で決まる</h3>
+                            <h3 style="padding-top:50px;">「だれに」「どこで」「どう伝えるか」</h3>
                             <p class="desc mb-53">
-                            綿密なヒアリングをもとに、 WEBサービスの問題発見や解決策の提案、戦略立案などを中心に、
-                            お客様が最適なWEBサービスを活用できるようサポートします。
+                            デジタル広告の重要性が非常に高まっている今
+                            インターネット上でユーザーを集める為の仕組みづくりを提供します。
                             </p>
 
                             <div class="row gutter-20">

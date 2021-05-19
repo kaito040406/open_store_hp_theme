@@ -85,18 +85,18 @@
                                         </div>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
-                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/">オープンストア</a>
+                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/about">会社概要</a>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
                                                     <a href="/services">サービス</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="/services-single">WEBコンサルティング</a></li>
-                                                        <li><a href="/services-single2">WEBサービス制作/開発</a></li>
-                                                        <li><a href="/services-single3">ECサイト構築/運営</a></li>
-                                                        <li ><a href="/services-single4">WEBマーケティング/運用</a></li>
-                                                        <li><a href="/services-single5">クリエイティブ制作</a></li>
-                                                        <li class="last-item"><a href="/services-single6">システム開発</a></li>
+                                                        <li><a href="/services/1">WEBコンサルティング</a></li>
+                                                        <li><a href="/services/2">WEBサービス制作/開発</a></li>
+                                                        <li><a href="/services/3">ECサイト構築/運営</a></li>
+                                                        <li ><a href="/services/4">WEBマーケティング/運用</a></li>
+                                                        <li><a href="/services/5">クリエイティブ制作</a></li>
+                                                        <li class="last-item"><a href="/services/6">システム開発</a></li>
                                                     </ul>
                                                 </li>
 
