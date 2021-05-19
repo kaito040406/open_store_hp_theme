@@ -1,13 +1,14 @@
-<footer id="rs-footer" class="rs-footer">
+        <!-- Footer Start -->
+        <footer id="rs-footer" class="rs-footer style3">
             <div class="container">
                 <div class="footer-newsletter">
                     <div class="row y-middle">
                         <div class="col-md-6 sm-mb-26">
-                            <h3 class="title white-color mb-0">Newsletter Subscribe</h3>
+                            <h3 class="title white-color mb-0">お問い合わせはこちらから</h3>
                         </div>
                         <div class="col-md-6 text-right">
                             <form class="newsletter-form">
-                                <input type="email" name="email" placeholder="Your email address" required="">
+                                <input type="email" name="email" placeholder="問い合わせボタンに変更" required="">
                                 <button type="submit"><i class="fa fa-paper-plane"></i></button>
                             </form>
                         </div>
@@ -31,18 +32,18 @@
                             <ul class="address-widget pr-40">
                                 <li>
                                     <i class="flaticon-location"></i>
-                                    <div class="desc">374 William S Canning Blvd, Fall River MA 2721, USA</div>
+                                    <div class="desc">大阪府大阪市淀川区木川東4-5-3 オパル新大阪ビル<br>東京都新宿区山吹町261-5 トリオ・セントラルタワー ２F</div>
                                 </li>
                                 <li>
                                     <i class="flaticon-call"></i>
                                     <div class="desc">
-                                        <a href="tel:+8801739753105">(+880)173-9753105</a>
+                                        <a href="tel:+8801739753105">(06)6770-9626</a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                        <a href="mailto:support@rstheme.com">contact@openstore-japan.com</a>
                                     </div>
                                 </li>
                                 <li>
@@ -53,64 +54,23 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
-                            <h4 class="widget-title">Latest Posts</h4>
-                            <div class="footer-post">
-                                <div class="post-wrap mb-15">
-                                    <div class="post-img">
-                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/1.jpg" alt=""></a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            September 6, 2019
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-wrap mb-15">
-                                    <div class="post-img">
-                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/2.jpg" alt=""></a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href="blog-single.html">Soundtrack filma Lady Exclusive Music</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            April 15, 2019
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-wrap">
-                                    <div class="post-img">
-                                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href="blog-single.html">Winged moved stars, fruit creature seed night.</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            October 9, 2019
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="footer-bottom">
                     <div class="row y-middle">
                         <div class="col-lg-6 col-md-8 sm-mb-21">
                             <div class="copyright">
-                                <p>© Copyright 2021 Reobiz. All Rights Reserved.</p>
+                                <p>© Copyright 2021 OPEN STORE inc All Rights Reserved.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-4 text-right sm-text-center">
+                        <!-- <div class="col-lg-6 col-md-4 text-right sm-text-center">
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
