@@ -1,7 +1,3 @@
-<?php 
-echo($args['works']);
-echo "aaa";
-?>
         <!-- Main content Start -->
         <div class="main-content">
 
@@ -490,60 +486,20 @@ echo "aaa";
                         <!-- Latest Project Section Start -->
             <div class="rs-project style4 pt-100 pb-100 md-pt-70 md-pb-70">
                 <div id="rs-project-style4" class="rs-carousel owl-carousel">
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/1.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Stock Market Analysis</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
+                <!-- ここからループさせる -->
+                <?php foreach ($args['works'] as $post) : setup_postdata($post); ?>
+                  <div class="project-item">
+                    <div class="project-img">
+                        <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                     </div>
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/2.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Advertising Technology</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
+                    <div class="project-inner">
+                        <h4 class="title"><a href="portfolio-slider.html"><?php echo the_title(); ?></a></h4>
+                        <?php //ここはなんのサービスに該当するかを書く。あとでよい ?>
+                        <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
                     </div>
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/3.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Security Services</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/4.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Big Data Services</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/5.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Stock Investments</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/project/style4/6.jpg" alt="images"></a>
-                        </div>
-                        <div class="project-inner">
-                            <h4 class="title"><a href="portfolio-slider.html">Sales Analysis</a></h4>
-                            <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                        </div>
-                    </div>
+                  </div>
+                <?php endforeach; ?>
+                <!-- ここまでループさせる -->
                 </div>
                 <div class="container">
                     <div class="row md-mb-20">
