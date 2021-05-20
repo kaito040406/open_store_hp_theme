@@ -486,7 +486,7 @@
             <!-- Counter Section End -->
 
                         <!-- Latest Project Section Start -->
-                        <div class="rs-project style4 pt-100 pb-100 md-pt-70 md-pb-70">
+            <div class="rs-project style4 pt-100 pb-100 md-pt-70 md-pb-70">
                 <div id="rs-project-style4" class="rs-carousel owl-carousel">
                     <div class="project-item">
                         <div class="project-img">
