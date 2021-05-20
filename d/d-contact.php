@@ -143,7 +143,7 @@ Template Name: contact2.php
 			</div>
 
 		</div> -->
-	 <div class="container">
+	<div class="container">
         <div class="kaisha">
             <div class="kaisha1">
                 <div class="kaisha-ti">
@@ -230,6 +230,8 @@ Template Name: contact2.php
             </table>
         </div>
     </div>
+
+		
 	</body>
 </html>
 
