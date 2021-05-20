@@ -19,16 +19,11 @@
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
                             <div class="about-widget pr-15">
                                 <div class="logo-part">
-                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Footer Logo"></a>
-                                </div>
-                                <p class="desc">We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
-                                <div class="btn-part">
-                                    <a class="readon" href="about.html">Discover More</a>
+                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/logo.png" alt="Footer Logo"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 md-mb-32 footer-widget">
-                            <h4 class="widget-title">Contact Info</h4>
+                        <div class="col-lg-8 col-md-12 col-sm-12 md-mb-32 footer-widget">
                             <ul class="address-widget pr-40">
                                 <li>
                                     <i class="flaticon-location"></i>
