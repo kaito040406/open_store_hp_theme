@@ -37,7 +37,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/1.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/consulting.png" alt="WEBコンサルティング">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="/">WEBコンサルティング</a></h3>
@@ -48,7 +48,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/2.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/webservice.png" alt="WEBサービス制作/開発">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">WEBサービス制作/開発</a></h3>
@@ -59,7 +59,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/3.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/ecsite.png" alt="ECサイト構築/運営">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">ECサイト構築/運営</a></h3>
@@ -70,7 +70,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/4.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/webmarketing.png" alt="WEBマーケティング/運用">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">WEBマーケティング/運用</a></h3>
@@ -81,7 +81,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/5.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/creative.png" alt="クリエイティブ制作">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">クリエイティブ制作</a></h3>
@@ -92,7 +92,7 @@ Template Name: services.php
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style2/6.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/services/systemdev.png" alt="システム開発">
                                 </div>
                                 <div class="content-part text-center">
                                     <h3 class="title"><a href="services-single.html">システム開発</a></h3>
@@ -104,20 +104,6 @@ Template Name: services.php
                 </div>
             </div>
             <!-- Premium Services Section End -->
-
-            <!-- Cta Section Start -->
-            <div class="rs-cta bg21 pt-90 pb-100 md-pt-68 md-pb-80">
-                <div class="container">
-                    <div class="sec-title text-center">
-                        <div class="sub-title modify white">Any plan to start a project</div>
-                        <h2 class="title3 white-color">Our Experts always ready to work <br> with you.</h2>
-                        <div class="btn-part">
-                            <a class="readon banner-style" href="contact.html">Get started</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Cta Section End -->
 
         </div> 
         <!-- Main content End -->
