@@ -40,7 +40,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/consulting.png" alt="WEBコンサルティング">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="/">WEBコンサルティング</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/consulting') ?>">WEBコンサルティング</a></h3>
                                     <div class="desc">「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？</div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/webservice.png" alt="WEBサービス制作/開発">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">WEBサービス制作/開発</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/webservice') ?>">WEBサービス制作/開発</a></h3>
                                     <div class="desc">WEBサイト構築とは、単にテキスト要素を含むHTMLファイルとデザイン要素としての画像ファイルの組み合わせを行うことではありません。</div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/ecsite.png" alt="ECサイト構築/運営">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">ECサイト構築/運営</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/ecservice') ?>">ECサイト構築/運営</a></h3>
                                     <div class="desc">実店舗を持っているがWEBでも販売したいなど様々なご要望を伺い、お客様にあった最適なECサイト構築プランをご提案します。</div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/webmarketing.png" alt="WEBマーケティング/運用">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">WEBマーケティング/運用</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/webmarketing') ?>">WEBマーケティング/運用</a></h3>
                                     <div class="desc">デジタル領域のマーケティングを中心に、データ解析と効果計測に基づく実践的マーケティングの立案から実施・コンサルティングまで柔軟に対応いたします。</div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/creative.png" alt="クリエイティブ制作">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">クリエイティブ制作</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/creative') ?>">クリエイティブ制作</a></h3>
                                     <div class="desc">ブランドサイトやランディングページのWEBデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。</div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ Template Name: services.php
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/services/systemdev.png" alt="システム開発">
                                 </div>
                                 <div class="content-part text-center">
-                                    <h3 class="title"><a href="services-single.html">システム開発</a></h3>
+                                    <h3 class="title"><a href="<?php echo home_url('service/system') ?>">システム開発</a></h3>
                                     <div class="desc">事業戦略や業務プロセスがITと不可分となっている中、ITの活用力は競争力に大きく 影響します。企業のIT活用力の向上を支援する多様なサービスを提供しています。</div>
                                 </div>
                             </div>

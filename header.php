@@ -71,8 +71,8 @@
                         <div class="row custom-row">
                             <div class="col-cell">
                                 <div class="logo-area">
-                                    <a class="dark" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
-                                    <a class="light" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
+                                    <a class="dark" href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
+                                    <a class="light" href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/OPENSTOREロゴ.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-cell">
@@ -85,40 +85,35 @@
                                         </div>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
-                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="/about">会社概要</a>
+                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="<?php echo home_url('about') ?>">会社概要</a>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="/services">サービス</a>
+                                                    <a href="<?php echo home_url('services') ?>">サービス</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="/service/1">WEBコンサルティング</a></li>
-                                                        <li><a href="/service/2">WEBサービス制作/開発</a></li>
-                                                        <li><a href="/service/3">ECサイト構築/運営</a></li>
-                                                        <li ><a href="/service/4">WEBマーケティング/運用</a></li>
-                                                        <li><a href="/service/5">クリエイティブ制作</a></li>
-                                                        <li class="last-item"><a href="/service/6">システム開発</a></li>
+                                                        <li><a href="<?php echo home_url('service/consulting') ?>">WEBコンサルティング</a></li>
+                                                        <li><a href="<?php echo home_url('service/webservice') ?>">WEBサービス制作/開発</a></li>
+                                                        <li><a href="<?php echo home_url('service/ecservice') ?>">ECサイト構築/運営</a></li>
+                                                        <li ><a href="<?php echo home_url('service/webmarketing') ?>">WEBマーケティング/運用</a></li>
+                                                        <li><a href="<?php echo home_url('service/creative') ?>">クリエイティブ制作</a></li>
+                                                        <li class="last-item"><a href="<?php echo home_url('service/system') ?>">システム開発</a></li>
                                                     </ul>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">NEWS</a>
+                                                    <a href="<?php echo home_url('news') ?>">NEWS</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="/blog">オープンストアブログ</a></li>
-                                                        <li><a href="/blog">お知らせ(ブログ)</a></li>
-                                                        <li><a href="/blog">Q&A</a></li>
+                                                        <li><a href="<?php echo home_url('blog') ?>">オープンストアブログ</a></li>
+                                                        <li><a href="<?php echo home_url('news') ?>">お知らせ(ブログ)</a></li>
                                                     </ul>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">制作実績</a>
+                                                    <a href=""<?php echo home_url('works') ?>>制作実績</a>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">採用ページ</a>
-                                                </li>
-
-                                                <li class="menu-item-has-children">
-                                                    <a href="/contact">お問い合わせ</a>
+                                                    <a href="<?php echo home_url('contact') ?>">お問い合わせ</a>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
                                         </nav>
