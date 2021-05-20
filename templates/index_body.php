@@ -488,16 +488,7 @@
                 <div id="rs-project-style4" class="rs-carousel owl-carousel">
                 <!-- ここからループさせる -->
                 <?php foreach ($args['works'] as $post) : setup_postdata($post); ?>
-                  <div class="project-item">
-                    <div class="project-img">
-                        <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                    </div>
-                    <div class="project-inner">
-                        <h4 class="title"><a href="portfolio-slider.html"><?php echo the_title(); ?></a></h4>
-                        <?php //ここはなんのサービスに該当するかを書く。あとでよい ?>
-                        <span class="category"><a href="portfolio-slider.html">Digital Agency</a></span>
-                    </div>
-                  </div>
+                <?php get_template_part("templates/roop/index_body_works"); ?>
                 <?php endforeach; ?>
                 <!-- ここまでループさせる -->
                 </div>
@@ -511,7 +502,7 @@
                         </div>
                         <div class="col-lg-6 text-right md-center pt-15 md-pt-0">
                             <div class="btn-part mb-40 md-mb-20">
-                                <a class="readon2 get-new" href="#">もっと見る</a>
+                                <a class="readon2 get-new" href="/works">もっと見る</a>
                             </div>
                         </div> 
                     </div>
