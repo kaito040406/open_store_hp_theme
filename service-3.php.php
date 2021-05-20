@@ -12,7 +12,7 @@ Template Name: service-3.php
             <div class="rs-breadcrumbs bg-3">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">ECサイト構築/運営</h1>
+                        <h1 class="breadcrumbs-title title-color2 mb-0">ECサイト構築/運営</h1>
                     </div>
                 </div>
             </div>

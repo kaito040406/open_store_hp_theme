@@ -34,14 +34,11 @@ $args = array(
 // クエリ発行
 $posts = get_posts($args);
 
-$args_neary = array(
-    'post_type' => $content_args['post_type'], //urlに基づき判別
-    'posts_per_page' => 5, // 表示する記事数(5件)
-    'order'=>'DESC',
-    'orderby'=>'post_date',
-);
-//クエリ発行
-$posts_neary = get_posts($args_neary);
+$args = [
+    'post_type' => $content_args['post_type'],
+];
+  
+
 ?>
 
 
@@ -53,7 +50,7 @@ $posts_neary = get_posts($args_neary);
             <div class="rs-breadcrumbs bg-8">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0"><?php echo $content_args['title']; ?></h1>
+                        <h1 class="breadcrumbs-title title-color2 mb-0"><?php echo $content_args['title']; ?></h1>
                     </div>
                 </div>
             </div>
@@ -88,24 +85,11 @@ $posts_neary = get_posts($args_neary);
                                        <h3 class="title semi-bold mb-20">最近の投稿</h3>
                                     </div>
                                     <!-- ここからループ -->
-                                    <?php foreach ($posts as $post) : setup_postdata($post); ?>
-                                    <?php get_template_part("templates/roop/archive_nearyroop"); ?>
-                                    <?php endforeach; ?>
+                                    <?php get_template_part("templates/parts/archive_nearyroop", null, $args); ?>
                                     <!-- ここまでループ -->
                                 </div>
 
-                                <div class="sidebar-categories sidebar-grid shadow">
-                                    <div class="sidebar-title">
-                                       <h3 class="title semi-bold mb-20">コンテンツ</h3>
-                                    </div>
-                                    <ul>                                    
-                                        <li><a href="/about">会社概要</a></li> 
-                                        <li><a href="/service">サービス</a></li> 
-                                        <li><a href="/news">NEWS</a></li> 
-                                        <li><a href="/works">制作実績</a></li>
-                                        <li><a href="/contact">お問い合わせ</a></li>
-                                    </ul>
-                                </div>
+                                <?php get_template_part("templates/parts/side_link"); ?>
                             </div>
                         </div>
                     </div>
