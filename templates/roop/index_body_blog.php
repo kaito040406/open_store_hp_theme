@@ -6,7 +6,7 @@
     <!-- ここにはカテゴリーを入れます start -->
       <a class="categories" href="blog-single.html"></a>
     <!-- ここはカテゴリーを入れます end -->
-      <h3 class="title"><a href="blog-single.html"><?php echo the_title(); ?></a></h3>
+      <h3 class="title"><a href="<?php echo get_permalink();?>"><?php echo the_title(); ?></a></h3>
       <p class="desc"><?php echo the_excerpt(); ?></p>
       <div class="blog-meta">
           <div class="user-data">
