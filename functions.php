@@ -8,6 +8,9 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
   add_filter('filesystem_method', 'set_fs_method');
 }
 
+//投稿にアイキャッチ画像を追加できるように設定
+add_theme_support('post-thumbnails');
+
 
 // カスタム投稿の設定 strat 長谷川
 add_action('init', 'create_post_type');
