@@ -50,7 +50,7 @@ $args = [
             <div class="rs-breadcrumbs bg-8">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0"><?php echo $content_args['title']; ?></h1>
+                        <h1 class="breadcrumbs-title title-color2 mb-0"><?php echo $content_args['title']; ?></h1>
                     </div>
                 </div>
             </div>

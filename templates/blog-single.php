@@ -1,41 +1,5 @@
 
 
-                <!-- Canvas Menu start -->
-                <nav class="right_menu_togle hidden-md">
-                    <div class="close-btn">
-                        <span id="nav-close" class="humburger">
-                            <span class="dot1"></span>
-                            <span class="dot2"></span>
-                            <span class="dot3"></span>
-                            <span class="dot4"></span>
-                            <span class="dot5"></span>
-                            <span class="dot6"></span>
-                            <span class="dot7"></span>
-                            <span class="dot8"></span>
-                            <span class="dot9"></span>
-                        </span>
-                    </div>
-                    <div class="canvas-logo">
-                        <a href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a>
-                    </div>
-                    <div class="offcanvas-text">
-                        <p>Consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor aliquam posuere tortor develop database.</p>
-                    </div>
-                    <div class="canvas-contact">
-                        <ul class="contact">
-                            <li><i class="flaticon-location"></i> 374 William S Canning Blvd, Fall River MA 2721, USA</li>
-                            <li><i class="flaticon-call"></i><a href="tel:+880155-69569">(+880)155-69569</a></li>
-                            <li><i class="flaticon-email"></i><a href="mailto:support@rstheme.com">support@rstheme.com</a></li>
-                            <li><i class="flaticon-clock"></i>10:00 - 17:00</li>
-                        </ul>
-                        <ul class="social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <!-- Canvas Menu end -->
             </header>
             <!--Header End-->
@@ -48,7 +12,7 @@
             <div class="rs-breadcrumbs bg-9">
                 <div class="container">
                     <div class="content-part text-center">
-                        <h1 class="breadcrumbs-title white-color mb-0"><?php echo the_title(); ?></h1>
+                        <h1 class="breadcrumbs-title .title-color2 mb-0"><?php echo the_title(); ?></h1>
                     </div>
                 </div>
             </div>
