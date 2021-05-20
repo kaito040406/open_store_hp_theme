@@ -40,3 +40,19 @@ function create_post_type()
   ]);
 }
 // カスタム投稿の設定 end 長谷川
+
+//　一覧画面の文字数制御 start 長谷川
+function twpp_change_excerpt_length( $length ) {
+  $length = 50;
+  return $length; 
+}
+
+add_filter( 'excerpt_length', 'twpp_change_excerpt_length', 999 );
+//　一覧画面の文字数制御 end 長谷川
+
+//一覧表示の文字数オーバーの時の表示 start 長谷川
+function twpp_change_excerpt_more( $more ) {
+  return '...';
+}
+add_filter( 'excerpt_more', 'twpp_change_excerpt_more' );
+//一覧表示の文字数オーバーの時の表示 end 長谷川
