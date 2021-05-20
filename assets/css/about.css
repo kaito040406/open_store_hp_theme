@@ -23,6 +23,19 @@
         text-align: center;
         margin    : 23% 0;
     }
+}
+@media screen and (max-width:415px) {
+    .kaisha_bun_title h2 {
+        font-size  : 1.5rem;
+        line-height: 40px;
+    }
+
+    .kaisha_bun_me p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:376px) {
     .kaisha_bun_title h2 {
         font-size  : 1.4rem;
         line-height: 40px;
