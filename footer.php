@@ -19,7 +19,7 @@
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
                             <div class="about-widget pr-15">
                                 <div class="logo-part">
-                                    <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/nishi/logo.png" alt="Footer Logo"></a>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/nishi/logo.png" alt="Footer Logo">
                                 </div>
                             </div>
                         </div>
