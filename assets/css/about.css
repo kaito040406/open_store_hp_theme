@@ -1,5 +1,37 @@
 /*会社情報 css*/
 
+/*会社メッセージ*/
+
+.kaisha_bun {
+    text-align: center;
+    margin    : 10% 0;
+}
+
+.kaisha_bun_title {}
+
+.kaisha_bun_title h2 {
+    font-size  : 2rem;
+    line-height: 40px;
+}
+
+.kaisha_bun_me {}
+
+.kaisha_bun_me p {}
+
+@media screen and (max-width:767px) {
+    .kaisha_bun {
+        text-align: center;
+        margin    : 23% 0;
+    }
+    .kaisha_bun_title h2 {
+        font-size  : 1.4rem;
+        line-height: 40px;
+    }
+
+    .kaisha_bun_me p {
+        font-size: 0.9rem;
+    }
+}
 
 /*会社概要*/
 
