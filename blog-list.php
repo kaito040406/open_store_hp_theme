@@ -4,6 +4,47 @@ Template Name: blog-list.php
 */
 ?>
 
+
+<?php 
+
+// 健在のパスを取得
+$uri = $_SERVER['REQUEST_URI'];
+
+if(preg_match('/blog/',$uri)){
+    $content_args = [
+        'title' => 'オープンストアブログ',
+        'post_type' => 'post',
+    ];
+}elseif(preg_match('/news/',$uri)){
+    $content_args = [
+        'title' => 'お知らせ',
+        'post_type' => 'news',
+    ];
+}elseif(preg_match('/works/',$uri)){
+    $content_args = [
+        'title' => '実績',
+        'post_type' => 'works',
+    ];
+}
+
+$args = array(
+    'post_type' => $content_args['post_type'], //urlに基づき判別
+    'posts_per_page' => 10000, // 表示する記事数(10000件)
+);
+// クエリ発行
+$posts = get_posts($args);
+
+$args_neary = array(
+    'post_type' => $content_args['post_type'], //urlに基づき判別
+    'posts_per_page' => 5, // 表示する記事数(5件)
+    'order'=>'DESC',
+    'orderby'=>'post_date',
+);
+//クエリ発行
+$posts_neary = get_posts($args_neary);
+?>
+
+
 <?php get_header(); ?>
 
 		<!-- Main content Start -->
@@ -12,7 +53,7 @@ Template Name: blog-list.php
             <div class="rs-breadcrumbs bg-8">
                 <div class="container">
                     <div class="content-part text-center pt-160 pb-160">
-                        <h1 class="breadcrumbs-title white-color mb-0">Blog</h1>
+                        <h1 class="breadcrumbs-title white-color mb-0"><?php echo $content_args['title']; ?></h1>
                     </div>
                 </div>
             </div>
@@ -23,254 +64,46 @@ Template Name: blog-list.php
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/1.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/2.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/3.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/4.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/5.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="#">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/6.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/7.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow mb-70 xs-mb-50">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/8.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-wrap shadow">
-                                <div class="image-part">
-                                    <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/9.jpg" alt=""></a>
-                                </div>
-                                <div class="content-part">
-                                    <h3 class="title mb-10"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones</a></h3>
-                                    <ul class="blog-meta mb-22">
-                                        <li><i class="fa fa-calendar-check-o"></i> April 6, 2020</li>
-                                        <li><i class="fa fa-user-o"></i> admin</li>
-                                        <li><i class="fa fa-book"></i> <a href="blog-single.html">Strategy</a></li>
-                                    </ul>
-                                    <p class="desc mb-20">We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that...</p>
-                                    <div class="btn-part">
-                                        <a class="readon-arrow" href="blog-single.html">Continue Reading</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- ここからループ -->
+                        <?php foreach ($posts as $post) : setup_postdata($post); ?>
+                        <?php get_template_part("templates/roop/archive_mainroop"); ?>
+                        <?php endforeach; ?>
+                        <!-- ここまでループ -->
                         </div>
 
                         <div class="col-lg-4 md-mb-50 pl-35 lg-pl-15 md-order-first">
                             <div id="sticky-sidebar" class="blog-sidebar">
-                                <div class="sidebar-search sidebar-grid shadow mb-50">
+                                <?php //検索機能は後ほど実装 ?>
+                                <!-- <div class="sidebar-search sidebar-grid shadow mb-50">
                                     <form class="search-bar">
                                         <input type="text" placeholder="Search...">
                                         <span>
                                           <button type="submit"><i class="flaticon-search"></i></button> 
                                         </span>
                                     </form>
-                                </div>
+                                </div> -->
 
                                 <div class="sidebar-popular-post sidebar-grid shadow mb-50">
                                     <div class="sidebar-title">
-                                       <h3 class="title semi-bold mb-20">Recent Post</h3>
+                                       <h3 class="title semi-bold mb-20">最近の投稿</h3>
                                     </div>
-                                    <div class="single-post mb-20">
-                                        <div class="post-image">
-                                            <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/1.jpg" alt="post image"></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <div class="post-title">
-                                                <h5 class="margin-0"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones </a></h5>
-                                            </div>
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> 28 June, 2019</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="single-post mb-20">
-                                        <div class="post-image">
-                                            <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/2.jpg" alt="post image"></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <div class="post-title">
-                                                <h5 class="margin-0"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones </a></h5>
-                                            </div>
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> 28 June, 2019</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="single-post mb-20">
-                                        <div class="post-image">
-                                            <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/3.jpg" alt="post image"></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <div class="post-title">
-                                                <h5 class="margin-0"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones </a></h5>
-                                            </div>
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> 28 June, 2019</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="single-post mb-20">
-                                        <div class="post-image">
-                                            <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/4.jpg" alt="post image"></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <div class="post-title">
-                                                <h5 class="margin-0"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones </a></h5>
-                                            </div>
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> 28 June, 2019</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="single-post">
-                                        <div class="post-image">
-                                            <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/small/5.jpg" alt="post image"></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <div class="post-title">
-                                                <h5 class="margin-0"><a href="blog-single.html">Covid-19 threatens the next generation of smartphones </a></h5>
-                                            </div>
-                                            <ul>
-                                                <li><i class="fa fa-calendar"></i> 28 June, 2019</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <!-- ここからループ -->
+                                    <?php foreach ($posts as $post) : setup_postdata($post); ?>
+                                    <?php get_template_part("templates/roop/archive_nearyroop"); ?>
+                                    <?php endforeach; ?>
+                                    <!-- ここまでループ -->
                                 </div>
 
                                 <div class="sidebar-categories sidebar-grid shadow">
                                     <div class="sidebar-title">
-                                       <h3 class="title semi-bold mb-20">Categories</h3>
+                                       <h3 class="title semi-bold mb-20">コンテンツ</h3>
                                     </div>
                                     <ul>                                    
-                                        <li><a href="#">Consulting</a></li> 
-                                        <li><a href="#">Creative</a></li> 
-                                        <li><a href="#">Development</a></li> 
-                                        <li><a href="#">Finance</a></li>
-                                        <li><a href="#">Management</a></li>
-                                        <li><a href="#">Strategy</a></li>
+                                        <li><a href="/about">会社概要</a></li> 
+                                        <li><a href="/service">サービス</a></li> 
+                                        <li><a href="/news">NEWS</a></li> 
+                                        <li><a href="/works">制作実績</a></li>
+                                        <li><a href="/contact">お問い合わせ</a></li>
                                     </ul>
                                 </div>
                             </div>
