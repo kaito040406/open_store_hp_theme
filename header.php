@@ -91,12 +91,12 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="/services">サービス</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="/services/1">WEBコンサルティング</a></li>
-                                                        <li><a href="/services/2">WEBサービス制作/開発</a></li>
-                                                        <li><a href="/services/3">ECサイト構築/運営</a></li>
-                                                        <li ><a href="/services/4">WEBマーケティング/運用</a></li>
-                                                        <li><a href="/services/5">クリエイティブ制作</a></li>
-                                                        <li class="last-item"><a href="/services/6">システム開発</a></li>
+                                                        <li><a href="/service/1">WEBコンサルティング</a></li>
+                                                        <li><a href="/service/2">WEBサービス制作/開発</a></li>
+                                                        <li><a href="/service/3">ECサイト構築/運営</a></li>
+                                                        <li ><a href="/service/4">WEBマーケティング/運用</a></li>
+                                                        <li><a href="/service/5">クリエイティブ制作</a></li>
+                                                        <li class="last-item"><a href="/service/6">システム開発</a></li>
                                                     </ul>
                                                 </li>
 
