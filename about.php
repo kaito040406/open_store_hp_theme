@@ -153,7 +153,7 @@ Template Name: about.php
                             <i class="fa fa-bar-chart"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">WEBコンサルティング</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/consulting">WEBコンサルティング</a></h4>
                             <p class="services-txt">綿密なヒアリングをもとにWEBサービスの問題発見や解決策の提案、戦略立案などを中心に、お客様が最適なWEBサービスを活用できるサポートします。</p>
                             <div class="serial-number"> ~~~ 01</div>
                         </div>
@@ -165,7 +165,7 @@ Template Name: about.php
                             <i class="fa fa-puzzle-piece"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">WEBサービス制作/開発</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/webservice">WEBサービス制作/開発</a></h4>
                             <p class="services-txt">お客様の「伝えたいこと」「やりたいこと」とユーザーの求めていることをWEBサービスを用いてさまざまなカタチで実現します。</p>
                             <div class="serial-number"> ~~~ 02</div>
                         </div>
@@ -177,7 +177,7 @@ Template Name: about.php
                             <i class="fa fa-envelope-o"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">ECサイト構築/運営</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/ecservice">ECサイト構築/運営</a></h4>
                             <p class="services-txt">お客様の商品やオリジナルブランドを独自のオンラインショップを通じて誰にでもどこにでもお届けすることができます。</p>
                             <div class="serial-number"> ~~~ 03</div>
                         </div>
@@ -189,7 +189,7 @@ Template Name: about.php
                             <i class="fa fa-sitemap"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">WEBマーケティング/運用</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/webmarketing">WEBマーケティング/運用</a></h4>
                             <p class="services-txt">デジタル広告の重要性が非常に高まっている今、インターネット上でユーザーを集める為の仕組みづくりを提供します。</p>
                             <div class="serial-number"> ~~~ 04</div>
                         </div>
@@ -201,7 +201,7 @@ Template Name: about.php
                             <i class="fa fa-codepen"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">クリエイティブ制作</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/creative">クリエイティブ制作</a></h4>
                             <p class="services-txt">ユーザーの心と行動を変化させ、お客様のブランドが人々の記憶に深く刻まれるような"伝わる"クリエイティブ制作をします。</p>
                             <div class="serial-number"> ~~~ 05</div>
                         </div>
@@ -213,7 +213,7 @@ Template Name: about.php
                             <i class="fa fa-yelp"></i>
                         </div>
                         <div class="services-txt">
-                            <h4 class="services-title"><a href="/services">システム開発</a></h4>
+                            <h4 class="services-title"><a href="<?php bloginfo('url'); ?>/service/system">システム開発</a></h4>
                             <p class="services-txt">顧客管理、営業管理システムといったITの導入により業務を効率化し新たなビジネスチャンスを創ります。</p>
                             <div class="serial-number"> ~~~ 06</div>
                         </div>
