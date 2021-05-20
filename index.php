@@ -80,42 +80,6 @@
             </div>
             <!-- Services Section End -->
 
-            <!-- About Section Start -->
-            <!-- <div id="rs-about" class="rs-about style8 pt-100 pb-100 md-pt-70 md-pb-40">
-                <div class="container">
-                    <div class="row y-middle">
-                        <div class="col-lg-6 pl-50 md-pl-15 order-last">
-                            <div class="sec-title3">
-                                <span class="sub-title">~ <span class="title-upper">About Us</span> ~</span>
-                                <h2 class="title title2 pb-25">Grow Your Business With Our Digital Agency</h2>
-                                <p class="desc pb-20">Over 25 years Reobiz helping companies reach<br>their financial and branding goals.</p>
-                                <p class="description pb-30">On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire. Letraset sheets containing Lorem passages, desktop publishing</p>
-                                <ul class="btn-part">
-                                    <li><a class="readon2 get-new" href="#">Learn More</a></li>
-                                    <li>
-                                        <div class="video-btn seo-agency text-center">
-                                            <a class="popup-videos" href="https://www.youtube.com/watch?v=YLN1Argi7ik">
-                                                <i class="fa fa-play"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 md-mb-50">
-                            <div class="images-part">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/about-13.png" alt="images">
-                            </div>
-                            <div class="widget-center">
-                                <div class="content-part">
-                                    <h2 class="title">25+</h2>
-                                    <p>Years of<br>Experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <!-- Partner Section Start　スライド画像 -->
                 <div class="rs-partner modify2 pt-100 md-pt-40">
                     <div class="container">
