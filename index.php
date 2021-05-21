@@ -12,6 +12,7 @@
     $args_blogs = array(
         'post_type' => 'post', // ブログを指定
         'posts_per_page' => 6, // 表示する記事数(6件)
+        'category_name' => 'blog', //カテゴリースラッグがblogのみ取得
     );
     // クエリ発行
     $blog_posts = get_posts($args_blogs);

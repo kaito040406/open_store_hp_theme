@@ -10,27 +10,42 @@ Template Name: blog-list.php
 // 健在のパスを取得
 $uri = $_SERVER['REQUEST_URI'];
 
+// 投稿タイプの判定変数
+// 0ならカテゴリーを絞りたい、1なら絞らない
+$flg = 0;
+
 if(preg_match('/blog/',$uri)){
     $content_args = [
         'title' => 'オープンストアブログ',
         'post_type' => 'post',
+        'category_type' => 'blog',
     ];
 }elseif(preg_match('/news/',$uri)){
     $content_args = [
         'title' => 'お知らせ',
         'post_type' => 'news',
     ];
+    $flg = 1;
 }elseif(preg_match('/works/',$uri)){
     $content_args = [
         'title' => '実績',
         'post_type' => 'works',
     ];
+    $flg = 1;
 }
 
-$args = array(
-    'post_type' => $content_args['post_type'], //urlに基づき判別
-    'posts_per_page' => 10000, // 表示する記事数(10000件)
-);
+if($flg = 0){
+    $args = array(
+        'post_type' => $content_args['post_type'], //urlに基づき判別
+        'posts_per_page' => 10000, // 表示する記事数(10000件)
+        'category_name' => $content_args['category_type'],
+    );
+}else{
+    $args = array(
+        'post_type' => $content_args['post_type'], //urlに基づき判別
+        'posts_per_page' => 10000, // 表示する記事数(10000件)
+    );
+}
 // クエリ発行
 $posts = get_posts($args);
 
