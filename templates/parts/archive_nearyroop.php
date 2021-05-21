@@ -4,6 +4,7 @@ $args_neary = array(
     'posts_per_page' => 5, // 表示する記事数(5件)
     'order'=>'DESC',
     'orderby'=>'post_date',
+    'category_name' => 'blog', //カテゴリースラッグがblogのみ取得
 );
 //クエリ発行
 $posts_neary = get_posts($args_neary);
