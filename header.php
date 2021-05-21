@@ -85,7 +85,12 @@
                                         </div>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
-                                                <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="<?php echo home_url('about') ?>">会社概要</a>
+                                                <li class="menu-item-has-children">
+                                                    <a href="<?php echo home_url('/') ?>">会社概要</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="<?php echo home_url('about') ?>">私たち</a></li>
+                                                        <li><a href="<?php echo home_url('privacy-policy') ?>">プライバシーポリシー</a></li>
+                                                    </ul>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
@@ -101,7 +106,7 @@
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href="<?php echo home_url('news') ?>">NEWS</a>
+                                                    <a href="<?php echo home_url('blog') ?>">NEWS</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="<?php echo home_url('blog') ?>">オープンストアブログ</a></li>
                                                         <li><a href="<?php echo home_url('news') ?>">お知らせ(ブログ)</a></li>
@@ -110,10 +115,17 @@
 
                                                 <li class="menu-item-has-children">
                                                     <a href=""<?php echo home_url('works') ?>>制作実績</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="<?php echo home_url('works') ?>">一覧</a></li>
+                                                    </ul>
                                                 </li>
 
                                                 <li class="menu-item-has-children">
                                                     <a href="<?php echo home_url('contact') ?>">お問い合わせ</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="<?php echo home_url('contact') ?>">問合せフォーム</a></li>
+                                                        <li><a href="https://lin.ee/zv4arTx">Lineでご連絡</a></li>
+                                                    </ul>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
                                         </nav>
