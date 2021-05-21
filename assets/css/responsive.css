@@ -362,6 +362,7 @@
     }
     .rs-banner.style4 {
         padding: 200px 0px 70px 0px;
+        background-position: 100% 100px;
     }
     .rs-whychooseus.style7 .iconbox-area .box-content .text-area .services-txt {
         font-size: 15px;
@@ -1084,6 +1085,7 @@
     }
     .rs-banner.style4 {
         padding: 80px 0px 0px 0px;
+        background-position: 100% 0px;
     }
     .rs-whychooseus.style10 .rs-counter {
         left: 33%;
@@ -2091,8 +2093,8 @@
         display: none;
     }
     .rs-banner.style4 {
-        background: unset;
-      
+        /* background: unset; */
+      background-size: 200px;
     }
     .rs-pricing.style5 .pricing-table {
         max-width: 420px;
@@ -2116,6 +2118,7 @@
     }
     .rs-banner.style4 {
         padding: 40px 0px 0px 0px;
+        background-position: 100% 20px;
     }
     .rs-banner.style4 .banner-content .description p {
         font-size: 16px;
