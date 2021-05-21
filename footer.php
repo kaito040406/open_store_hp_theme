@@ -56,6 +56,9 @@
                     <div class="row y-middle">
                         <div class="col-lg-6 col-md-8 sm-mb-21">
                             <div class="copyright">
+                                <p>このサイトはreCAPTCHAによって保護されており、Googleの<a href = "https://policies.google.com/privacy" style="color:white;">プライバシーポリシー</a>と<a href = "https://policies.google.com/terms" style="color:white;">利用規約</a>が適用されます。</p>
+                            </div>
+                            <div class="copyright">
                                 <p>© Copyright 2021 OPEN STORE inc All Rights Reserved.</p>
                             </div>
                         </div>
@@ -70,6 +73,7 @@
                     </div>
                 </div>
             </div>
+            <?php get_template_part("templates/facebook"); ?>
         </footer>
         <!-- Footer End -->
 

@@ -8325,13 +8325,15 @@ body .modal-backdrop {
 }
 
 .rs-banner.style4 {
-  /* background: url(img/load_img2.gif); */
-  background-repeat  : no-repeat;
+  background-image: url(img/load_img2.gif);
+  background-repeat: no-repeat;
   background-position: top right;
-  background-size    : contain;
-  padding            : 300px 0px 135px 0px;
-  position           : relative;
-  z-index            : 1;
+  /* background-size: contain; */
+  background-size: 70%;
+  /* padding: 300px 0px 135px 0px; */
+  padding: 300px 0px 0px 0px;
+  position: relative;
+  z-index: 1;
 }
 
 .rs-banner.style4 .banner-content .title {
