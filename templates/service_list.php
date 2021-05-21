@@ -12,7 +12,7 @@
                                     <i class="fa fa-bar-chart"></i>
                                 </div>
                                 <div class="services-txt">
-                                    <h4 class="services-title"><a href="/services/consulting">WEBコンサルティング</a></h4>
+                                    <h4 class="services-title"><a href="/service/consulting">WEBコンサルティング</a></h4>
                                     <p class="services-txt">綿密なヒアリングをもとにWEBサービスの問題発見や解決策の提案、戦略立案などを中心に、お客様が最適なWEBサービスを活用できるサポートします。</p>
                                     <div class="serial-number"> ~~~ 01</div>
                                 </div>

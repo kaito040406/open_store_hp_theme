@@ -68,6 +68,6 @@ Template Name: service-1.php
             </div>
             <!-- Services Section End -->
         </div> 
-        <?php get_template_part("templates/roop/"); ?>
+        <?php get_template_part("templates/service_list"); ?>
         <!-- Footer Start -->
         <?php get_footer(); ?>

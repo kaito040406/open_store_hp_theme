@@ -101,7 +101,7 @@ Template Name: privacy.php
     </div>
     <!-- Main content End -->
 
-    <?php get_template_part("templates/roop/service_list"); ?>
+    <?php get_template_part("templates/service_list"); ?>
 
     <!-- Footer Start -->
     <?php get_footer(); ?>

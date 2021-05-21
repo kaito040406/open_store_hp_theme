@@ -69,7 +69,7 @@ Template Name: service-3.php
             </div>
             <!-- Services Section End -->
         </div> 
-        <?php get_template_part("templates/roop/service_list"); ?>
+        <?php get_template_part("templates/service_list"); ?>
 
         <!-- Footer Start -->
         <?php get_footer(); ?>
