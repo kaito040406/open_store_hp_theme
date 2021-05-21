@@ -7,10 +7,11 @@
                             <h3 class="title white-color mb-0">お問い合わせはこちらから</h3>
                         </div>
                         <div class="col-md-6 text-right">
-                            <form class="newsletter-form">
-                                <input type="email" name="email" placeholder="問い合わせボタンに変更" required="">
-                                <button type="submit"><i class="fa fa-paper-plane"></i></button>
-                            </form>
+                            <!-- <form class="newsletter-form"> -->
+                                <!-- <input type="email" name="email" placeholder="問い合わせボタンに変更" required=""> -->
+                            <a href="https://lin.ee/zv4arTx"><img src="<?php echo get_template_directory_uri(); ?>/img/line_img.png" alt="line Logo" style="padding-right: 10px"></a>
+                            <!-- </form> -->
+                            <a href="/contact"><img src="<?php echo get_template_directory_uri(); ?>/img/丸枠付きのメールのアイコン素材 4.png" alt="お問い合わせ"></a>
                         </div>
                     </div>
                 </div>
@@ -23,7 +24,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-12 col-sm-12 md-mb-32 footer-widget">
+                        <div class="col-lg-6 col-md-12 col-sm-12 md-mb-32 footer-widget">
                             <ul class="address-widget pr-40">
                                 <li>
                                     <i class="flaticon-location"></i>

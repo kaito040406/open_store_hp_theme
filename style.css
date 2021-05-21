@@ -14444,7 +14444,7 @@ body .modal-backdrop {
   background: #acccf4;
 }
 .rs-contact.inner .contact-form-part form {
-  background: url(assets/images/quote/right-bg2.jpg);
+  background: url(img/contact_back.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14496,8 +14496,9 @@ body .modal-backdrop {
 }
 .rs-contact.inner .contact-form-part .img-part {
   height: 100%;
-  background: url(assets/images/contact/left-img.jpg);
-  background-size: cover;
+  background: url(img/contact_logo2.png);
+  /* background-size: cover; */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }

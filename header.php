@@ -50,6 +50,8 @@
 		<!-- This stylesheet dynamically changed from style.less -->
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css">
         <?php wp_head(); ?>
     </head>
     <body class="home-five">
