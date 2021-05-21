@@ -49,31 +49,19 @@
                                     <h3 class="title">この記事へのコメント</h3>
                                     <p></p>
                                     <div id="form-messages"></div>
-                                    <form id="contact-form" method="post" action="mailer.php">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-field">
-                                                    <label>お名前 *</label>
-                                                    <input type="text" id="name" name="name" required="">
-                                                </div>                              
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-field">
-                                                    <label>メールアドレス *</label>
-                                                    <input type="email" id="email" name="email" required="">
-                                                </div>                              
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-field mb-30">
-                                                    <label>コメント</label>
-                                                    <textarea rows="7" id="message" name="message"></textarea>
-                                                </div>
-                                                <div class="form-button mt-30">
-                                                    <button type="submit" class="readon radius">送信</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
+                                    <style>
+                                        .wpcf7-form-control.wpcf7-submit{
+                                            background-color: #106eea;;
+                                            border: none;
+                                            border-radius: 3px;
+                                            padding: 1% 2%;
+                                            color: white;
+                                        }
+                                    </style>
+                                    <?php 
+                                    //contact form7にて呼び出し
+                                    echo do_shortcode('[contact-form-7 id="54" title="Contact form 1"]');
+                                     ?>
                                 </div>
                             </div>
                         </div>
