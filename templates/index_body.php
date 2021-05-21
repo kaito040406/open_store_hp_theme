@@ -16,7 +16,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5"></div>
+                        <div class="col-lg-5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/load_img2.gif">
+                        </div>
                     </div>
                 </div>
                 <div class="animate-part">
