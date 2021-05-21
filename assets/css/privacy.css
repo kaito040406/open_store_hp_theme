@@ -1,0 +1,39 @@
+/*プライバシーポリシー*/
+
+.privacy_policy {
+    width : 85%;
+    margin: 10% auto;
+}
+
+.privacy_policy_1 {}
+
+.policy {
+    margin: 5% 0;
+}
+
+.policy_title {}
+
+.policy_title h3 {}
+
+.policy_me {}
+
+.policy_me p {
+    line-height: 2;
+}
+
+@media screen and (max-width:769px) {
+    .policy {
+        margin: 11% 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .policy_title h3 {
+        font-size: 1.4rem;
+    }
+
+    .policy_me p {
+        font-size  : 0.8rem;
+        line-height: 2;
+    }
+}
