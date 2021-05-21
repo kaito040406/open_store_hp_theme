@@ -155,6 +155,41 @@
             </div>
             <!-- About Section End -->
 
+<!-- About Section Start -->
+            <div id="rs-about" class="rs-about style8 pt-100 pb-100 md-pt-70 md-pb-40">
+                <div class="container">
+                    <div class="row y-middle">
+                        <div class="col-lg-6 pl-50 md-pl-15 order-last">
+                            <div class="sec-title3">
+                                <span class="sub-title">~ <span class="title-upper">About Us</span> ~</span>
+                                <h2 class="title title2 pb-25">shopify expert</h2>
+                                <p class="desc pb-20">オープンストア株式会社は国内では未だ少ない<br>Shopify Expertsの公認メンバーです。</p>
+                                <p class="description pb-30">
+                                世界ではシェアNo1を誇り、世界175ヶ国で利用されているECサイト作成サービス。
+                                開設ショップ数100万以上を誇り（2021年5月現在）、日本国内でも急速にその存在感を増してきています。
+                                オープンストア株式会社ではShopifyを活用したECサイトの制作だけではなく、サイト分析、サイト改善、SEO対策、SNS対策、販促提案など
+                                ECサイトの運用のノウハウをクライアント様に提供しています。
+                                </p>
+                                <ul class="btn-part">
+                                    <li><a class="readon2 get-new" href="/contact">お問い合わせはこちら</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 md-mb-50">
+                            <div class="images-part">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/about-13.png" alt="images">
+                            </div>
+                            <!-- <div class=“widget-center”>
+                                <div class=“content-part”>
+                                    <h2 class=“title”>25+</h2>
+                                    <p>Years of<br>Experience</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Services Section Start -->
             <div id="rs-services" class="rs-services style16 bg29">
                 <div class="container">
