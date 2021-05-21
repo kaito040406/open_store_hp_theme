@@ -296,13 +296,38 @@
             <!-- Why Choose Section End -->
 
             <!-- Blog Section Start -->
+            <div id="rs-blog" class="rs-blog style1 modify2 modify-home13 pt-93 pb-70 md-pt-73 md-pb-0">
+                <div class="container">
+                    <div class="row md-mb-40">
+                        <div class="col-lg-6">
+                            <div class="sec-title3 md-center mb-40 md-mb-20">
+                                <span class="sub-title">~ <span class="title-upper">News</span> ~</span>
+                                <h2 class="title">お知らせ</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 md-center text-right pt-15 md-pt-0">
+                            <a class="readon2 get-new" href="#">View All Blog Post</a>
+                        </div> 
+                    </div>
+                    <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3" data-md-device-nav="false" data-md-device-dots="false">
+                        <!-- ここはループ -->
+                        <?php foreach ($args['news'] as $post) : setup_postdata($post); ?>
+                        <?php get_template_part("templates/roop/index_body_blog"); ?>
+                        <?php endforeach; ?>
+                        <!-- ここまでループ -->
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Section End -->
+
+            <!-- Blog Section Start -->
               <div id="rs-blog" class="rs-blog style1 modify2 modify-home13 pt-93 pb-70 md-pt-73 md-pb-0">
                 <div class="container">
                     <div class="row md-mb-40">
                         <div class="col-lg-6">
                             <div class="sec-title3 md-center mb-40 md-mb-20">
-                                <span class="sub-title">~ <span class="title-upper">News & Blog</span> ~</span>
-                                <h2 class="title">Our Latest News & Blog</h2>
+                                <span class="sub-title">~ <span class="title-upper">Blog</span> ~</span>
+                                <h2 class="title">ブログ</h2>
                             </div>
                         </div>
                         <div class="col-lg-6 md-center text-right pt-15 md-pt-0">
