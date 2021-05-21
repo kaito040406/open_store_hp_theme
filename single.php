@@ -8,7 +8,6 @@
   ];
 
   $cats = get_the_category();
-  echo $cats;
 
   get_header();
   
