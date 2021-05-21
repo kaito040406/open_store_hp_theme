@@ -279,7 +279,7 @@
                         </div>
                         <div class="col-lg-7 pl-70 md-pl-15">
                             <div class="images-part">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/nishi/600×578-top.png" alt="images">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/nishi/top-image3.png" alt="images">
                             </div>
                             <div class="rs-animations">
                                 <div class="shape-icons one">

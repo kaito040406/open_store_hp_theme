@@ -6875,7 +6875,7 @@ body .modal-backdrop {
   top: -800px;
 }
 .rs-banner.style4 {
-  background: url(img/load_img.gif);
+  /* background: url(img/load_img.gif); */
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
