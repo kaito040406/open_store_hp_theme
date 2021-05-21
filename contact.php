@@ -6,6 +6,8 @@ Template Name: contact.php
 
 <?php get_header(); ?>
 
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/contact.css">
+
 		<!-- Main content Start -->
         <div class="main-content">
             <!-- Breadcrumbs Section Start -->
@@ -65,13 +67,14 @@ Template Name: contact.php
                             </div>
                             <div class="col-md-7 custom2 pl-0">
                                 <div id="form-messages"></div>
-                                <!-- <?php
+
+                                <?php
                                     $get_form = get_posts(array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1, 'name' => 'コンタクトフォーム 1'))[0];
                                     ?>
 
-                                    <?php echo do_shortcode( '[contact-form-7 id="'.$get_form->ID.'" title="'.$get_form->post_title.'"]' ); ?>  -->
+                                    <?php echo do_shortcode( '[contact-form-7 id="'.$get_form->ID.'" title="'.$get_form->post_title.'"]' ); ?> 
 
-                                <form id="contact-form" method="post" action="mailer.php">
+                                <!-- <form id="contact-form" method="post" action="mailer.php">
                                     <div class="sec-title mb-53 md-mb-42">
                                         <div class="sub-title white-color">Let's Talk</div>
                                         <h2 class="title white-color mb-0">Get In Touch</h2>
@@ -96,13 +99,13 @@ Template Name: contact.php
                                             <button type="submit" class="readon modify">Submit Now</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="g-map mt-100 md-mt-80">
-                    <iframe src="https://maps.google.com/maps?q=37.803467%2C%20-122.472369&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.0501090567636!2d135.49153181565222!3d34.72913128920178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e56b3d2d4643%3A0xc3d55c5b851da83d!2z44Kq44O844OX44Oz44K544OI44Ki5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1621559979329!5m2!1sja!2sjp"></iframe> -->
                 </div>
             </div>
             <!-- Contact Section End -->
