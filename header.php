@@ -52,6 +52,9 @@
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
 
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
         <?php wp_head(); ?>
     </head>
     <body class="home-five">
