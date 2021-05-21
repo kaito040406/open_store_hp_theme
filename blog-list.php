@@ -34,7 +34,7 @@ if(preg_match('/blog/',$uri)){
     $flg = 1;
 }
 
-if($flg = 0){
+if($flg == 0){
     $args = array(
         'post_type' => $content_args['post_type'], //urlに基づき判別
         'posts_per_page' => 10000, // 表示する記事数(10000件)
