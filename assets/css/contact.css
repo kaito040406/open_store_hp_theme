@@ -1,0 +1,29 @@
+.text {
+  display: block;
+}
+
+.rs-contact.inner .contact-form-part .contact_btn {
+  background: #ffffff;
+  color: #106eea;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+  padding: 13px 32px;
+  border-radius: 3px;
+}
+
+.rs-contact.inner .contact-form-part .contact_btn:hover {
+  outline: none;
+  padding: 15px 29px;
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background: #106eea;
+  transition: all 0.3s ease;
+}
+
