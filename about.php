@@ -82,22 +82,22 @@ Template Name: about.php
                         <th class="campany-th">所在地</th>
                         <td class="campany-td">
                             <ul>
+                                <li class="ul">大阪本社
+                                    <br>〒532-0012 大阪府大阪市淀川区木川東４丁目５−３
+                                </li>
+                                <li>
+                                    <div class="iframe-wrap">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.0501090566845!2d135.4915318147185!3d34.72913128920377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43130b5e829%3A0x4f00da5f97f8ed!2z44CSNTMyLTAwMTIg5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy65pyo5bed5p2x77yU5LiB55uu77yV4oiS77yT!5e0!3m2!1sja!2sjp!4v1618474823571!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
                                 <li class="ul">東京支部
                                     <br>〒162-080 東京都新宿区山吹町２６１−５ トリオ・セントラルタワー2F
                                 </li>
                                 <li>
                                     <div class="iframe-wrap">
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.741667467735!2d139.72934511474696!3d35.707974236113266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cfff3d69d6b%3A0xb44eac71e387b406!2z44CSMTYyLTA4MDEg5p2x5Lqs6YO95paw5a6_5Yy65bGx5ZC555S677yS77yW77yR4oiS77yV!5e0!3m2!1sja!2sjp!4v1618474464054!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li class="ul">大阪支部
-                                    <br>〒532-0012 大阪府大阪市淀川区木川東４丁目５−３
-                                </li>
-                                <li>
-                                    <div class="iframe-wrap">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.0501090566845!2d135.4915318147185!3d34.72913128920377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43130b5e829%3A0x4f00da5f97f8ed!2z44CSNTMyLTAwMTIg5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy65pyo5bed5p2x77yU5LiB55uu77yV4oiS77yT!5e0!3m2!1sja!2sjp!4v1618474823571!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                     </div>
                                 </li>
                             </ul>
@@ -113,7 +113,7 @@ Template Name: about.php
                     </tr>
                     <tr>
                         <th class="campany-th">従業員数</th>
-                        <td class="campany-td">29名</td>
+                        <td class="campany-td">34名</td>
                     </tr>
                     <tr>
                         <th class="campany-th">事業内容</th>

@@ -48,7 +48,7 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style10/icons/1.png" alt="images">
                                 </div>
                                 <div class="services-text">
-                                    <h2 class="title"> <a href="services-single.html">新しくWEBサービスを立ち上げたい</a></h2>
+                                    <h2 class="title"> <a href="services-single.html">新しくWEBサービスを<br>立ち上げたい</a></h2>
                                     <p class="services-txt"> 新しいWebサービスのアイデアがあっても、何から手をつけたらいいか分からない、進め方が分からないという方は多くいらっしゃいます。</p>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                             </a>
                                         </div>
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="col-lg-6 pl-50 md-pl-15 order-last">
                             <div class="sec-title3">
                                 <span class="sub-title">~ <span class="title-upper">About Us</span> ~</span>
-                                <h2 class="title title2 pb-25">shopify expert</h2>
+                                <h2 class="title title2 pb-25">shopify Experts</h2>
                                 <p class="desc pb-20">オープンストア株式会社は国内では未だ少ない<br>Shopify Expertsの公認メンバーです。</p>
                                 <p class="description pb-30">
                                 世界ではシェアNo1を誇り、世界175ヶ国で利用されているECサイト作成サービス。
@@ -288,7 +288,7 @@
                             </div>
                             <div class="services-part mb-40">
                                 <div class="services-icon">
-                                    <i class="fa fa-briefcase"></i> 
+                                    <i class="fa fa-briefcase"></i>
                                 </div>
                                 <div class="services-text">
                                     <div class="services-title"><h3 class="title"><a href="#">課題解決に向けた、きめ細かなご提案</a></h3></div>
@@ -297,7 +297,7 @@
                             </div>
                             <div class="services-part mb-40">
                                 <div class="services-icon">
-                                    <i class="fa fa-signal"></i> 
+                                    <i class="fa fa-signal"></i>
                                 </div>
                                 <div class="services-text">
                                     <div class="services-title"><h3 class="title"><a href="#">WEBサービス開発、構築</a></a></h3></div>
@@ -306,7 +306,7 @@
                             </div>
                             <div class="services-part">
                                 <div class="services-icon">
-                                    <i class="fa fa-sitemap"></i> 
+                                    <i class="fa fa-sitemap"></i>
                                 </div>
                                 <div class="services-text">
                                     <div class="services-title"><h3 class="title"><a href="#">Webマーケティング</a></h3></div>
@@ -333,7 +333,7 @@
             <!-- Why Choose Section End -->
 
             <!-- Blog Section Start -->
-            <div id="rs-blog" class="rs-blog style1 modify2 modify-home13 pt-93 pb-70 md-pt-73 md-pb-0">
+            <!-- <div id="rs-blog" class="rs-blog style1 modify2 modify-home13 pt-93 pb-70 md-pt-73 md-pb-0">
                 <div class="container">
                     <div class="row md-mb-40">
                         <div class="col-lg-6">
@@ -344,17 +344,17 @@
                         </div>
                         <div class="col-lg-6 md-center text-right pt-15 md-pt-0">
                             <a class="readon2 get-new" href="#">View All Blog Post</a>
-                        </div> 
+                        </div>
                     </div>
                     <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3" data-md-device-nav="false" data-md-device-dots="false">
-                        <!-- ここはループ -->
+                        ここはループ
                         <?php foreach ($args['news'] as $post) : setup_postdata($post); ?>
                         <?php get_template_part("templates/roop/index_body_blog"); ?>
                         <?php endforeach; ?>
-                        <!-- ここまでループ -->
+                        ここまでループ
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Blog Section End -->
 
             <!-- Blog Section Start -->
@@ -369,7 +369,7 @@
                         </div>
                         <div class="col-lg-6 md-center text-right pt-15 md-pt-0">
                             <a class="readon2 get-new" href="#">View All Blog Post</a>
-                        </div> 
+                        </div>
                     </div>
                     <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3" data-md-device-nav="false" data-md-device-dots="false">
                         <!-- ここはループ -->
@@ -438,11 +438,11 @@
                             <div class="btn-part mb-40 md-mb-20">
                                 <a class="readon2 get-new" href="/works">もっと見る</a>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Latest Project Section End -->
 
-        </div> 
+        </div>
         <!-- Main content End -->
