@@ -14,7 +14,7 @@ Template Name: contact.php
             <div class="rs-breadcrumbs bg-6">
                 <div class="container">
                     <div class="content-part text-center">
-                        <h1 class="breadcrumbs-title white-color mb-0">Contact</h1>
+                        <h1 class="breadcrumbs-title title-color2 mb-0">Contact</h1>
                     </div>
                 </div>
             </div>
@@ -31,8 +31,8 @@ Template Name: contact.php
                                         <i class="fa fa-at"></i>
                                     </div>
                                     <div class="content-part">
-                                        <h4 class="title">Phone Number</h4>
-                                        <a href="tel:+088589-8745">(+088)589-8745</a>
+                                        <h4 class="title">電話番号</h4>
+                                        <a href="tel:06-6770-9626">(06)6770-9626</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +42,8 @@ Template Name: contact.php
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="content-part">
-                                        <h4 class="title">Email Address</h4>
-                                        <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                        <h4 class="title">メールアドレス</h4>
+                                        <a href="mailto:contact@openstore-japan.com">contact@openstore-japan.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -53,8 +53,8 @@ Template Name: contact.php
                                         <i class="fa fa-map-o"></i>
                                     </div>
                                     <div class="content-part">
-                                        <h4 class="title">Office Address</h4>
-                                        <p>228 Main Street, Georgia, USA</p>
+                                        <h4 class="title">大阪オフィス</h4>
+                                        <p>大阪府大阪市淀川区木川東4-5-3 オパル新大阪ビル</p>
                                     </div>
                                 </div>
                             </div>
