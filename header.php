@@ -91,7 +91,7 @@
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
                                                 <li class="menu-item-has-children">
-                                                    <a href="<?php echo home_url('/') ?>">会社概要</a>
+                                                    <a href="<?php echo home_url('about') ?>">会社概要</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="<?php echo home_url('about') ?>">私たち</a></li>
                                                         <li><a href="<?php echo home_url('privacy-policy') ?>">プライバシーポリシー</a></li>
