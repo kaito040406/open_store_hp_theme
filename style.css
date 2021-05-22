@@ -2242,7 +2242,7 @@ ul.page-nav-vertical li:last-child {
 
 .sidebar-grid.sidebar-categories ul li:before {
   content: "\f105";
-  /* font-family: FontAwesome; */
+  font-family: FontAwesome;
   position: absolute;
   left: 0;
   top: 50%;
@@ -25386,3 +25386,4 @@ body .modal-backdrop {
 a {
   color: black;
 }
+
