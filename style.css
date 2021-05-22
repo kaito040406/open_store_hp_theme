@@ -25373,8 +25373,16 @@ body .modal-backdrop {
   display: flex;
 }
 
+.rs-contact .col-lg-4 {
+  display: block;
+}
+
 .serial-number {
   bottom: 0;
   position: absolute;
   margin: 5% 0;
+}
+
+a {
+  color: black;
 }

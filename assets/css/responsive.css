@@ -3785,6 +3785,17 @@
     .rs-contact.style3 .g-map iframe {
         height: 300px;
     }
+
+/* 追記 */
+
+  .rs-footer .text-right {
+    padding-right: 10%;
+  }
+
+  .rs-footer .text-right img {
+    width: 55px;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {

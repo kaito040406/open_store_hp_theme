@@ -9,9 +9,9 @@
                         <div class="col-md-6 text-right">
                             <!-- <form class="newsletter-form"> -->
                                 <!-- <input type="email" name="email" placeholder="問い合わせボタンに変更" required=""> -->
-                            <a href="https://lin.ee/zv4arTx"><img src="<?php echo get_template_directory_uri(); ?>/img/line_img.png" alt="line Logo" style="padding-right: 10px"></a>
+                            <a href="https://lin.ee/zv4arTx"><img src="<?php echo get_template_directory_uri(); ?>/img/LINE_SOCIAL_Circle.png" alt="line Logo" style="padding-right: 10px"></a>
                             <!-- </form> -->
-                            <a href="/contact"><img src="<?php echo get_template_directory_uri(); ?>/img/丸枠付きのメールのアイコン素材 4.png" alt="お問い合わせ"></a>
+                            <a href="/contact"><img src="<?php echo get_template_directory_uri(); ?>/img/丸枠付きのメールのアイコン素材 4.png" alt="お問い合わせ" style="padding-right: 10px"></a>
                         </div>
                     </div>
                 </div>

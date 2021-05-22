@@ -54,7 +54,7 @@ Template Name: contact.php
                                     </div>
                                     <div class="content-part">
                                         <h4 class="title">大阪オフィス</h4>
-                                        <p>大阪府大阪市淀川区木川東4-5-3 オパル新大阪ビル</p>
+                                        <p>大阪府大阪市淀川区木川東4-5-3<br>オパル新大阪ビル</p>
                                     </div>
                                 </div>
                             </div>
