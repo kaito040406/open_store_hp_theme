@@ -172,7 +172,7 @@
                                 ECサイトの運用のノウハウをクライアント様に提供しています。
                                 </p>
                                 <ul class="btn-part">
-                                    <li><a class="readon2 get-new" href="/contact">お問い合わせはこちら</a></li>
+                                    <li><a class="readon2 get-new" href=""<?php echo home_url('contact') ?>"">お問い合わせはこちら</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -379,7 +379,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 md-center text-right pt-15 md-pt-0">
-                            <a class="readon2 get-new" href="#">View All Blog Post</a>
+                            <a class="readon2 get-new" href="<?php echo home_url('blog') ?>">もっと見る</a>
                         </div>
                     </div>
                     <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3" data-md-device-nav="false" data-md-device-dots="false">
@@ -447,7 +447,7 @@
                         </div>
                         <div class="col-lg-6 text-right md-center pt-15 md-pt-0">
                             <div class="btn-part mb-40 md-mb-20">
-                                <a class="readon2 get-new" href="/works">もっと見る</a>
+                                <a class="readon2 get-new" href="<?php echo home_url('works') ?>">もっと見る</a>
                             </div>
                         </div>
                     </div>

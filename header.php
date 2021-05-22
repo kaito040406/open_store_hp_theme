@@ -119,7 +119,7 @@
                                                 </li>
 
                                                 <li class="menu-item-has-children">
-                                                    <a href=""<?php echo home_url('works') ?>>制作実績</a>
+                                                    <a href="<?php echo home_url('works') ?>">制作実績</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="<?php echo home_url('works') ?>">一覧</a></li>
                                                     </ul>

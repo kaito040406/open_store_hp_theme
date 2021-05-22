@@ -33,13 +33,13 @@
                                 <li>
                                     <i class="flaticon-call"></i>
                                     <div class="desc">
-                                        <a href="tel:+8801739753105">(06)6770-9626</a>
+                                        <a href="tel:0667709626">(06)6770-9626</a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">contact@openstore-japan.com</a>
+                                        <a href="mailto:contact@openstore-japan.com<">contact@openstore-japan.com</a>
                                     </div>
                                 </li>
                                 <li>
