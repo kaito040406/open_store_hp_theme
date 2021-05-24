@@ -1,11 +1,23 @@
 <?php 
-$args_neary = array(
-    'post_type' => $args['post_type'], //urlに基づき判別
-    'posts_per_page' => 5, // 表示する記事数(5件)
-    'order'=>'DESC',
-    'orderby'=>'post_date',
-    'category_name' => 'blog', //カテゴリースラッグがblogのみ取得
-);
+// 健在のパスを取得
+$uri = $_SERVER['REQUEST_URI'];
+
+if(preg_match('/blog/',$uri)){
+    $args_neary = array(
+        'post_type' => $args['post_type'], //urlに基づき判別
+        'posts_per_page' => 5, // 表示する記事数(5件)
+        'order'=>'DESC',
+        'orderby'=>'post_date',
+        'category_name' => 'blog', //カテゴリースラッグがblogのみ取得
+    );
+}else{
+    $args_neary = array(
+        'post_type' => $args['post_type'], //urlに基づき判別
+        'posts_per_page' => 5, // 表示する記事数(5件)
+        'order'=>'DESC',
+        'orderby'=>'post_date',
+    );
+}
 //クエリ発行
 $posts_neary = get_posts($args_neary);
 ?>
