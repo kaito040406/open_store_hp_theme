@@ -29,7 +29,7 @@ $posts_neary = get_posts($args_neary);
         </div>
         <div class="post-desc">
             <div class="post-title">
-                <h5 class="margin-0"><a href="blog-single.html"><?php echo the_title(); ?></a></h5>
+                <h5 class="margin-0"><a href="<a href="<?php echo get_permalink(); ?>">"><?php echo the_title(); ?></a></h5>
             </div>
             <ul>
                 <li><i class="fa fa-calendar"></i><?php the_time('Y年m月d日'); ?></li>
