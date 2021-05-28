@@ -1321,7 +1321,7 @@ button:focus {
 .readon-arrow:after {
   content: "\f114";
   position: absolute;
-  /* font-family: flaticon; */
+  font-family: flaticon;
   font-size: 15px;
   top: 50%;
   transform: translateY(-50%);
