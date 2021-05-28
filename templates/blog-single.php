@@ -45,7 +45,7 @@
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div> -->
-                                <div class="bs-contact-form pt-45">
+                                <!-- <div class="bs-contact-form pt-45">
                                     <h3 class="title">この記事へのコメント</h3>
                                     <p></p>
                                     <div id="form-messages"></div>
@@ -62,7 +62,7 @@
                                     //contact form7にて呼び出し
                                     echo do_shortcode('[contact-form-7 id="54" title="Contact form 1"]');
                                      ?>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
 
