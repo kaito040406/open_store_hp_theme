@@ -47,7 +47,7 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style10/icons/1.png" alt="images">
                                 </div>
                                 <div class="services-text">
-                                    <h2 class="title"> <a href="services-single.html">新しくWEBサービスを<br>立ち上げたい</a></h2>
+                                    <h2 class="title"> <a href="/services">新しくWEBサービスを<br>立ち上げたい</a></h2>
                                     <p class="services-txt"> 新しいWebサービスのアイデアがあっても、何から手をつけたらいいか分からない、進め方が分からないという方は多くいらっしゃいます。</p>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style10/icons/2.png" alt="images">
                                 </div>
                                 <div class="services-text">
-                                    <h2 class="title"> <a href="services-single.html">ITを導入して<br>効果的に運用したい</a></h2>
+                                    <h2 class="title"> <a href="/services">ITを導入して<br>効果的に運用したい</a></h2>
                                     <p class="services-txt">ビジネスのデジタル化が進む中、ITシステムはビジネスを遂行するうえで不可欠の存在となっています。</p>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/style10/icons/3.png" alt="images">
                                 </div>
                                 <div class="services-text">
-                                    <h2 class="title"> <a href="services-single.html">新規見込顧客<br>問い合わせを獲得したい</a></h2>
+                                    <h2 class="title"> <a href="/services">新規見込顧客<br>問い合わせを獲得したい</a></h2>
                                     <p class="services-txt"> Webサイトを中心とした仕組みづくりによって、見込客情報を獲得し、効率的に問い合わせを増加させます。</p>
                                 </div>
                             </div>

@@ -25386,4 +25386,6 @@ body .modal-backdrop {
 a {
   color: black;
 }
-
+.grecaptcha-badge {
+  visivility: hidden;
+}
